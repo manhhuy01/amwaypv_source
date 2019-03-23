@@ -1,21 +1,34 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux'
+import { toggleDarkMode } from '../containers/products/actions'
 
-const IndexPage = () => (
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Card from '../components/card'
+
+const IndexPage = ({ isDarkMode, toggleDarkMode, products }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    {/* <button onClick={toggleDarkMode}>Click me</button> */}
+    <SEO title="Sản phẩm Amway" keywords={[`Amway`, `Sản phẩm`]} products={products} />
+    <div className="product-container">
+      {
+        products.map((product, index) => <Card key={index} product={product} />)
+      }
     </div>
+
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
-export default IndexPage
+const mapStateToProps = state => ({
+  isDarkMode: state.productReducer.isDarkMode,
+  products: state.productReducer.products
+});
+
+const mapDispatchToProps = dispatch => ({
+  toggleDarkMode: bindActionCreators(toggleDarkMode, dispatch),
+})
+export default connect(mapStateToProps, mapDispatchToProps)(IndexPage)
