@@ -1,6 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import IconCart from './iconCart'
+import IconDisplay from './iconDisplay'
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -13,6 +15,12 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    <input className="input-search" placeholder="Bạn tìm sản phẩm gì" />
+    <div className="header-right">
+      <IconDisplay />
+      <IconCart href="/" />
+    </div>
+
   </header>
 )
 
