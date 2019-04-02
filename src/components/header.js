@@ -3,8 +3,9 @@ import PropTypes from "prop-types"
 import React from "react"
 import IconCart from './iconCart'
 import IconDisplay from './iconDisplay'
+import IconHamburger from './iconHamburger'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, onDisplayClick, isGrid }) => (
   <header>
     <div>
       <h1>
@@ -14,10 +15,14 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+
+    </div>
+    <div className="hamburger-menu">
+      <IconHamburger />
     </div>
     <input className="input-search" placeholder="Bạn tìm sản phẩm gì" />
     <div className="header-right">
-      <IconDisplay />
+      <IconDisplay onClick={onDisplayClick} isGrid = {!isGrid}/>
       <IconCart href="/" />
     </div>
 

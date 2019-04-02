@@ -1,3 +1,4 @@
 import { combineReducers } from 'redux';
 import productReducer from '../containers/products/reducer';
-export default combineReducers({ productReducer });
+import layoutReducer from '../containers/layout/layoutReducer';
+export default combineReducers({ productReducer, layoutReducer });

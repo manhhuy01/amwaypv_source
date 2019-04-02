@@ -3,7 +3,7 @@ const IconCart = ({ onClick }) => <button onClick={onClick}>
     <svg
         stroke="white"
         fill="white"
-        stroke-width="0"
+        strokeWidth="0"
         viewBox="0 0 24 24"
         size="25" height="25"
         width="25"

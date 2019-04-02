@@ -8,16 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import lozad from 'lozad'
+// import lozad from 'lozad'
 import Header from "./header"
 import "./layout.css"
 
 class Layout extends React.Component {
-  componentDidMount() {
-    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-    observer.observe();
-  }
   render() {
+    const { onDisplayClick, isGrid } = this.props
     return (
       <StaticQuery
         query={graphql`
@@ -31,10 +28,14 @@ class Layout extends React.Component {
       `}
         render={data => (
           <>
-            <Header siteTitle={data.site.siteMetadata.title} />
+            <Header
+              siteTitle={data.site.siteMetadata.title}
+              onDisplayClick={onDisplayClick}
+              isGrid={isGrid}
+            />
             <main>{this.props.children}</main>
             <footer>
-              Đây là footer
+
             </footer>
           </>
         )}
@@ -47,5 +48,7 @@ class Layout extends React.Component {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
+
 
 export default Layout

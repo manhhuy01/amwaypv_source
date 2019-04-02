@@ -1,0 +1,1 @@
+export const SWITCH_DISPLAY = 'LAYOUT/SWITCH_DISPLAY';
