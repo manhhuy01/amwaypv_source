@@ -15,7 +15,6 @@ const middlewares = [
 const enhancers = [applyMiddleware(...middlewares)];
 const createStore = () => {
   const store = reduxCreateStore(rootReducer, {}, ...enhancers);
-  console.log(store)
   store.runSagaTask = () => {
     store.sagaTask = sagaMiddleware.run(rootSaga);
   }

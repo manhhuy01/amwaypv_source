@@ -14,7 +14,7 @@ import "./layout.css"
 
 class Layout extends React.Component {
   render() {
-    const { onDisplayClick, isGrid } = this.props
+    const { onDisplayClick, isGrid, onChangeInput } = this.props
     return (
       <StaticQuery
         query={graphql`
@@ -32,6 +32,7 @@ class Layout extends React.Component {
               siteTitle={data.site.siteMetadata.title}
               onDisplayClick={onDisplayClick}
               isGrid={isGrid}
+              onChangeInput={onChangeInput}
             />
             <main>{this.props.children}</main>
             <footer>

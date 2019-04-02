@@ -5,7 +5,7 @@ import IconCart from './iconCart'
 import IconDisplay from './iconDisplay'
 import IconHamburger from './iconHamburger'
 
-const Header = ({ siteTitle, onDisplayClick, isGrid }) => (
+const Header = ({ siteTitle, onDisplayClick, isGrid, onChangeInput }) => (
   <header>
     <div>
       <h1>
@@ -20,9 +20,14 @@ const Header = ({ siteTitle, onDisplayClick, isGrid }) => (
     <div className="hamburger-menu">
       <IconHamburger />
     </div>
-    <input className="input-search" placeholder="Bạn tìm sản phẩm gì" />
+    <input
+      className="input-search"
+      placeholder="Bạn tìm sản phẩm gì"
+      onChange={onChangeInput}
+      onFocus={(e) => { e.target.value = ''; onChangeInput({ target: { value: '' } }) }}
+    />
     <div className="header-right">
-      <IconDisplay onClick={onDisplayClick} isGrid = {!isGrid}/>
+      <IconDisplay onClick={onDisplayClick} isGrid={!isGrid} />
       <IconCart href="/" />
     </div>
 
