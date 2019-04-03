@@ -22,7 +22,7 @@ const Header = ({ siteTitle, onDisplayClick, isGrid, onChangeInput }) => (
     </div>
     <input
       className="input-search"
-      placeholder="Bạn tìm sản phẩm gì"
+      placeholder="Tìm sản phẩm"
       onChange={onChangeInput}
       onFocus={(e) => { e.target.value = ''; onChangeInput({ target: { value: '' } }) }}
     />

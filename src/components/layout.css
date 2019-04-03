@@ -21,10 +21,13 @@ body {
   grid-template-columns: 100%;
 }
 
+.card-container{
+  border: 1px solid #dfdfdf;
+}
 .card-container, .card-container--simple{
   display: flex;
   background: #F0F0F0;
-  margin: 8px;
+  margin: 4px;
   overflow: hidden;
   transition: .5s all;
 }
@@ -101,6 +104,11 @@ body {
 .product-dp {
   color: red;
 }
+
+.card-container .product-detail{
+  text-align: center;
+}
+
 .card-container .product-info{
   padding-bottom: 8px;
   max-width: 172px;

@@ -4,9 +4,9 @@ import React from "react"
 import { formatNumber } from '../services/commonFuncs'
 
 const Card = ({ product, isSimpleDisplay }) => (
-  <div className={isSimpleDisplay ? "card-container--simple" : "card-container"} >
+  <div className={isSimpleDisplay ? "card-container--simple" : "card-container"}  style={{ background: product.style.background }}>
     <div className="img-container"><img src={product.imageLink} alt={product.name} /></div>
-    <div className="card-right-panel">
+    <div className="card-right-panel" style={{ background: product.style.background }}>
       <div className="card-info">
         <div className="product-info">
           <div className="product-name">{product.name}</div>
