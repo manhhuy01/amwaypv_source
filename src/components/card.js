@@ -23,7 +23,7 @@ const Card = ({ product, isSimpleDisplay }) => (
           </div>
         </div>
       </div>
-      <button className="card-button">{isSimpleDisplay ? 'Thêm' : 'Thêm vào giỏ hàng'}</button>
+      <button className="card-button" onClick={()=>{ }}>{isSimpleDisplay ? 'Thêm' : 'Thêm vào giỏ hàng'}</button>
     </div>
   </div>
 )

@@ -11,9 +11,16 @@ import { toggleDarkMode } from '../containers/products/actions'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Card from '../components/card'
+import IconCart from '../components/iconCart'
+import IconDisplay from '../components/iconDisplay'
+import IconHamburger from '../components/iconHamburger'
+
+
+// import Card from '../components/card'
+import ProductBody from '../components/productBody'
+
 import { getProducts } from '../containers/products/actions'
-import { switchDisplay } from '../containers/layout/actions'
+import { switchDisplay, pageProductLoaded } from '../containers/layout/actions'
 
 import { searchString } from '../services/commonFuncs'
 
@@ -36,8 +43,14 @@ class IndexPage extends React.Component {
   }
 
   componentWillMount() {
+    this.props.pageProductLoaded();
     if (!this.props.products.length) {
       this.props.getProducts();
+    }
+    if (this.props.products.length && !this.state.products.length) {
+      this.setState({
+        products: [...this.props.products]
+      })
     }
   }
 
@@ -64,22 +77,46 @@ class IndexPage extends React.Component {
   render() {
     const { isLoading, isGrid } = this.props;
     const { products } = this.state;
+
+
+    const headerChildren = (<>
+      <div style={{display: 'none'}}>
+        <h1>
+          Sản phẩm Amway
+        </h1>
+
+      </div>
+      <div className="hamburger-menu">
+        <IconHamburger />
+      </div>
+      <input
+        className="input-search"
+        placeholder="Tìm sản phẩm"
+        onChange={this.onChangeInput}
+        onFocus={(e) => { e.target.value = ''; this.onChangeInput({ target: { value: '' } }) }}
+      />
+      <div className="header-right">
+        <IconDisplay onClick={this.props.switchDisplay} isGrid={!isGrid} />
+        <Link to="/order"><IconCart /></Link>
+      </div>
+    </>)
+
     return (
       <Layout
-        onDisplayClick={this.props.switchDisplay}
         isGrid={isGrid}
         onChangeInput={this.onChangeInput}
+        headerChildren={headerChildren}
       >
         {/* <button onClick={toggleDarkMode}>Click me</button> */}
         <SEO title="Sản phẩm Amway" keywords={[`Amway`, `Sản phẩm`]} products={products} />
-        <div className={isGrid ? "product-container" : "product-container--simple"}>
-          {
-            isLoading ? <div>Đang tải sản phẩm...</div> :
-              products.map((product, index) => <Card key={index} product={product} isSimpleDisplay={!isGrid} />)
-          }
-        </div>
-
-        <Link to="/page-2/">Go to page 2</Link>
+        {
+          isLoading ? <div> Đang tải sản phẩm...</div> :
+            <ProductBody
+              products={products}
+              isGrid={isGrid}
+              isLoading={isLoading}
+            />
+        }
       </Layout>
     )
   }
@@ -96,5 +133,7 @@ const mapDispatchToProps = dispatch => ({
   toggleDarkMode: bindActionCreators(toggleDarkMode, dispatch),
   getProducts: bindActionCreators(getProducts, dispatch),
   switchDisplay: bindActionCreators(switchDisplay, dispatch),
+  pageProductLoaded: bindActionCreators(pageProductLoaded, dispatch),
+
 })
 export default connect(mapStateToProps, mapDispatchToProps)(IndexPage)

@@ -56,3 +56,9 @@ export const searchString = (searchText, nameProduct) => {
   return name.includes(searchTxt) || firstCharacters.includes(searchTxt)
 
 }
+
+export const parseParams = (search) => {
+  if(!search) return ''
+  var params = search ? search.substring(1) : window.location.search.substring(1);
+  return JSON.parse('{"' + decodeURI(params).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}')
+}

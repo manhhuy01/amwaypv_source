@@ -14,33 +14,18 @@ import "./layout.css"
 
 class Layout extends React.Component {
   render() {
-    const { onDisplayClick, isGrid, onChangeInput } = this.props
+    const { headerChildren } = this.props
     return (
-      <StaticQuery
-        query={graphql`
-        query SiteTitleQuery {
-          site {
-            siteMetadata {
-              title
-            }
-          }
-        }
-      `}
-        render={data => (
-          <>
-            <Header
-              siteTitle={data.site.siteMetadata.title}
-              onDisplayClick={onDisplayClick}
-              isGrid={isGrid}
-              onChangeInput={onChangeInput}
-            />
-            <main>{this.props.children}</main>
-            <footer>
+      <>
+        <Header>
+          {headerChildren}
+        </Header>
 
-            </footer>
-          </>
-        )}
-      />
+        <main>{this.props.children}</main>
+        <footer>
+
+        </footer>
+      </>
     )
   }
 

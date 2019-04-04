@@ -1,5 +1,6 @@
 import {
-  SWITCH_DISPLAY
+  SWITCH_DISPLAY,
+  PAGE_PRODUCT_LOADED,
 } from './constants'
 // import products from '../../data/products.json'
 
@@ -10,6 +11,7 @@ if (typeof localStorage !== 'undefined') {
 
 const initialState = {
   isGrid,
+  isPageProductLoaded: false,
 };
 
 export default (state = initialState, action) => {
@@ -17,6 +19,8 @@ export default (state = initialState, action) => {
     case SWITCH_DISPLAY:
       localStorage.setItem('isGrid', JSON.stringify(!state.isGrid))
       return { ...state, isGrid: !state.isGrid };
+    case PAGE_PRODUCT_LOADED:
+      return { ...state, isPageProductLoaded: true};
 
     default:
       return state;
