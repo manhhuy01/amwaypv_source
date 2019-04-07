@@ -264,7 +264,6 @@ header input {
 }
 
 header .hamburger-menu {
-  display: none;
   height: 100%;
 }
 
@@ -288,6 +287,15 @@ input {
   border-radius: 2px;
   padding: 10px 10px;
   border: none;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="text"],
+select:focus,
+textarea {
+  font-size: 16px;
 }
 
 .icon-selection{
@@ -328,9 +336,6 @@ input {
   header input {
     width: 100%;
     margin: 0 12px;
-  }
-  header .hamburger-menu {
-    display: unset;
   }
   .card-container .product-info {
     padding-bottom: 8px;

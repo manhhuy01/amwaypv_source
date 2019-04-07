@@ -1,12 +1,13 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+import { COLORS } from '../containers/products/constants'
 import { formatNumber } from '../services/commonFuncs'
 
 const Card = ({ product, isSimpleDisplay }) => (
-  <div className={isSimpleDisplay ? "card-container--simple" : "card-container"}  style={{ background: product.style.background }}>
+  <div className={isSimpleDisplay ? "card-container--simple" : "card-container"} style={{ background: COLORS[product.category] || COLORS.DEFAULT }}>
     <div className="img-container"><img src={product.imageLink} alt={product.name} /></div>
-    <div className="card-right-panel" style={{ background: product.style.background }}>
+    <div className="card-right-panel" style={{ background: COLORS[product.category] || COLORS.DEFAULT }}>
       <div className="card-info">
         <div className="product-info">
           <div className="product-name">{product.name}</div>
@@ -23,7 +24,7 @@ const Card = ({ product, isSimpleDisplay }) => (
           </div>
         </div>
       </div>
-      <button className="card-button" onClick={()=>{ }}>{isSimpleDisplay ? 'Thêm' : 'Thêm vào giỏ hàng'}</button>
+      <button className="card-button" onClick={() => { }}>{isSimpleDisplay ? 'Thêm' : 'Thêm vào giỏ hàng'}</button>
     </div>
   </div>
 )

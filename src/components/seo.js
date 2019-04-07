@@ -70,6 +70,23 @@ function SEO({ description, lang, meta, keywords, title, products }) {
             name: `twitter:description`,
             content: metaDescription,
           },
+          {
+            name: `full-screen`,
+            content: 'yes',
+          },
+          {
+            name: `apple-mobile-web-app-capable`,
+            content: 'yes',
+          },
+          {
+            name: `mobile-web-app-capable`,
+            content: 'yes',
+          },
+          {
+            name: `apple-mobile-web-app-title`,
+            content: '',
+          },
+          
         ]
           .concat(
             keywords.length > 0

@@ -13,6 +13,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import Card from '../components/card'
 import IconSelectionCart from '../components/iconSelectionCart'
+import IconBack from '../components/iconBack'
+
 
 import { getProducts } from '../containers/products/actions'
 import { switchDisplay } from '../containers/layout/actions'
@@ -50,9 +52,9 @@ class OrderPage extends React.Component {
   }
 
   back = () => {
-    if(this.props.isPageProductLoaded){
+    if (this.props.isPageProductLoaded) {
       window.history.back();
-    }else{
+    } else {
       navigate('/')
     }
   }
@@ -60,9 +62,7 @@ class OrderPage extends React.Component {
   render() {
     const headerChildren = (
       <>
-        <button className="icon-back" onClick={this.back}>
-          🡐
-          </button>
+        <IconBack onClick={this.back} />
         <div>
           <h1>
             Giỏ hàng

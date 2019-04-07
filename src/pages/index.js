@@ -80,7 +80,7 @@ class IndexPage extends React.Component {
 
 
     const headerChildren = (<>
-      <div style={{display: 'none'}}>
+      <div style={{ display: 'none' }}>
         <h1>
           Sản phẩm Amway
         </h1>
@@ -90,6 +90,7 @@ class IndexPage extends React.Component {
         <IconHamburger />
       </div>
       <input
+        type="text"
         className="input-search"
         placeholder="Tìm sản phẩm"
         onChange={this.onChangeInput}
