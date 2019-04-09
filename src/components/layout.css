@@ -84,7 +84,6 @@ body {
 }
 
 .card-container .product-name {
-  text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
 }
@@ -249,9 +248,10 @@ header button {
   background: transparent;
   height: 100%;
   padding: 0 16px;
+  position: relative;
 }
 
-header a{
+header a {
   height: 100%;
 }
 
@@ -267,7 +267,7 @@ header .hamburger-menu {
   height: 100%;
 }
 
-header .icon-back{
+header .icon-back {
   color: white;
   font-size: 23px;
 }
@@ -289,17 +289,122 @@ input {
   border: none;
 }
 
-input[type="email"],
-input[type="number"],
-input[type="password"],
-input[type="text"],
-select:focus,
-textarea {
+input[type="email"], input[type="number"], input[type="password"], input[type="text"], select:focus, textarea {
   font-size: 16px;
 }
 
-.icon-selection{
+.icon-selection {}
 
+.cart-container {
+  width: 70%;
+}
+
+.cartItem-container {
+  display: flex;
+}
+
+.cartItem-container .card-button {
+  display: none;
+}
+
+.cartItem-container .card-container {
+  width: 100%;
+}
+
+.cartItem-container .card-container .product-info {
+  max-width: 100%;
+}
+
+.cartItem-container .img-container img {
+  width: 100px;
+}
+
+.cartItem-container .card-right-panel {
+  background: white !important;
+}
+
+.cartItem-container .product-price {
+  border: none;
+  display: block;
+  text-align: left;
+}
+
+.cartItem-container .product-pv, .cartItem-container .product-sku {
+  text-align: left;
+}
+
+.cartItem-action {
+  display: flex;
+}
+
+.cartItem-quantity {
+  width: 200px;
+  overflow: hidden;
+  margin: 4px;
+  background: white;
+  display: flex;
+  flex-flow: column;
+  margin-right: 0px;
+  align-items: center;
+}
+.cartItem-remove{
+  margin-top: 4px;
+  background: white;
+  margin-bottom: 4px;
+}
+
+.input-group {
+  display: table;
+}
+
+.input-group-btn, .input-group-number {
+  display: table-cell;
+  position: relative;
+}
+
+.input-group-btn button {
+  user-select: none;
+  background: white;
+  border: none;
+  outline: none;
+  border: 1px solid #dfdfdf;
+  width: 28px;
+  height: 28px;
+  line-height: 20px;
+  margin: 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.input-group-btn button:hover {
+  background: #f8f8f8;
+}
+
+.input-group-btn--down {
+  border-radius: 3px 0 0 3px;
+}
+
+.input-group-number {
+  background: white;
+  border: 1px solid #dfdfdf;
+  padding: 0 10px;
+  width: 20px;
+  text-align: center;
+}
+
+.badge-number {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  height: 24px;
+  width: 24px;
+  background: orange;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  line-height: 22px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 900px) {

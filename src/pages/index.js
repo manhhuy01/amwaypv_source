@@ -14,12 +14,10 @@ import SEO from "../components/seo"
 import IconCart from '../components/iconCart'
 import IconDisplay from '../components/iconDisplay'
 import IconHamburger from '../components/iconHamburger'
+import Card from '../components/card'
 
 
-// import Card from '../components/card'
-import ProductBody from '../components/productBody'
-
-import { getProducts } from '../containers/products/actions'
+import { getProducts, addProductToCart } from '../containers/products/actions'
 import { switchDisplay, pageProductLoaded } from '../containers/layout/actions'
 
 import { searchString } from '../services/commonFuncs'
@@ -44,9 +42,9 @@ class IndexPage extends React.Component {
 
   componentWillMount() {
     this.props.pageProductLoaded();
-    if (!this.props.products.length) {
-      this.props.getProducts();
-    }
+    // if (!this.props.products.length) {
+    //   this.props.getProducts();
+    // }
     if (this.props.products.length && !this.state.products.length) {
       this.setState({
         products: [...this.props.products]
@@ -74,6 +72,10 @@ class IndexPage extends React.Component {
     this.onSearch();
   }
 
+  onItemProductCicked = (product) => {
+    this.props.addProductToCart({ product })
+  }
+
   render() {
     const { isLoading, isGrid } = this.props;
     const { products } = this.state;
@@ -98,10 +100,9 @@ class IndexPage extends React.Component {
       />
       <div className="header-right">
         <IconDisplay onClick={this.props.switchDisplay} isGrid={!isGrid} />
-        <Link to="/order"><IconCart /></Link>
+        <Link to="/order"><IconCart amount={this.props.cartSelected.totalItem} /></Link>
       </div>
     </>)
-
     return (
       <Layout
         isGrid={isGrid}
@@ -112,11 +113,18 @@ class IndexPage extends React.Component {
         <SEO title="Sản phẩm Amway" keywords={[`Amway`, `Sản phẩm`]} products={products} />
         {
           isLoading ? <div> Đang tải sản phẩm...</div> :
-            <ProductBody
-              products={products}
-              isGrid={isGrid}
-              isLoading={isLoading}
-            />
+            <div className={isGrid ? "product-container" : "product-container--simple"}>
+              {
+                products.map((product, index) =>
+                  <Card
+                    key={index}
+                    product={product}
+                    isSimpleDisplay={!isGrid}
+                    onAddItemToCart={this.onItemProductCicked.bind(this, product)}
+
+                  />)
+              }
+            </div>
         }
       </Layout>
     )
@@ -128,6 +136,7 @@ const mapStateToProps = state => ({
   products: state.productReducer.products,
   isLoading: state.productReducer.isLoading,
   isGrid: state.layoutReducer.isGrid,
+  cartSelected: state.productReducer.cartSelected,
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -135,6 +144,7 @@ const mapDispatchToProps = dispatch => ({
   getProducts: bindActionCreators(getProducts, dispatch),
   switchDisplay: bindActionCreators(switchDisplay, dispatch),
   pageProductLoaded: bindActionCreators(pageProductLoaded, dispatch),
+  addProductToCart: bindActionCreators(addProductToCart, dispatch),
 
 })
 export default connect(mapStateToProps, mapDispatchToProps)(IndexPage)

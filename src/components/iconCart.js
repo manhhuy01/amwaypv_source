@@ -1,5 +1,5 @@
 import React from 'react'
-const IconCart = ({ onClick }) => <button onClick={onClick}>
+const IconCart = ({ onClick, amount }) => <button onClick={onClick}>
     <svg
         stroke="white"
         fill="white"
@@ -12,6 +12,10 @@ const IconCart = ({ onClick }) => <button onClick={onClick}>
 
         </path>
     </svg>
+    {
+        !!amount && <div className="badge-number">{amount}</div>
+    }
+
 </button>
 
 export default IconCart

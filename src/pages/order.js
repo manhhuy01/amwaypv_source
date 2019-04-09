@@ -14,6 +14,7 @@ import SEO from "../components/seo"
 // import Card from '../components/card'
 import IconSelectionCart from '../components/iconSelectionCart'
 import IconBack from '../components/iconBack'
+import CartItem from '../components/cartItem'
 
 
 import { getProducts } from '../containers/products/actions'
@@ -31,6 +32,9 @@ class OrderPage extends React.Component {
   }
 
   componentDidMount() {
+    if (this.props.isPageProductLoaded) {
+
+    }
     /*
     {
       customerPrice: 200000,
@@ -60,6 +64,7 @@ class OrderPage extends React.Component {
   }
 
   render() {
+    const { cartSelected: { products }, isLoading } = this.props
     const headerChildren = (
       <>
         <IconBack onClick={this.back} />
@@ -80,6 +85,17 @@ class OrderPage extends React.Component {
         headerChildren={headerChildren}
       >
         <SEO title="Đơn hàng Amway" keywords={[`Amway`, `Sản phẩm`]} />
+        {
+          isLoading ? <div> Đang tải sản phẩm...</div> :
+            <div>
+              <div className="cart-container">
+                {
+                  !!products && products.map((item, index) => <CartItem key={index} product={item.product} isSimpleDisplay={false} />)
+                }
+              </div>
+            </div>
+
+        }
       </Layout>
     )
   }
@@ -88,6 +104,8 @@ class OrderPage extends React.Component {
 const mapStateToProps = state => ({
   isDarkMode: state.productReducer.isDarkMode,
   isPageProductLoaded: state.layoutReducer.isPageProductLoaded,
+  cartSelected: state.productReducer.cartSelected,
+  isLoading: state.productReducer.isLoading,
 });
 
 const mapDispatchToProps = dispatch => ({

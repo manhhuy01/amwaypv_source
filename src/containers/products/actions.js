@@ -1,4 +1,11 @@
-import { TOGGLE_DARKMODE, GET_PRODUCTS, UPDATE_PRODUCTS } from './constants'
+import {
+    TOGGLE_DARKMODE,
+    GET_PRODUCTS,
+    UPDATE_PRODUCTS,
+    ADD_PRODUCT_TO_CART,
+    SUB_PRODUCT_FROM_CART,
+    REMOVE_PRODUCT_FROM_CART,
+} from './constants'
 
 export const toggleDarkMode = isDarkMode => ({
     type: TOGGLE_DARKMODE, isDarkMode
@@ -10,4 +17,20 @@ export const getProducts = () => ({
 
 export const updateProducts = () => ({
     type: UPDATE_PRODUCTS,
+})
+
+
+export const addProductToCart = (payload) => ({
+    type: ADD_PRODUCT_TO_CART,
+    payload,
+})
+
+export const subProductFromCart = (payload) => ({
+    type: SUB_PRODUCT_FROM_CART,
+    payload,
+})
+
+export const removeProductFromCart = (payload) => ({
+    type: REMOVE_PRODUCT_FROM_CART,
+    payload,
 })
