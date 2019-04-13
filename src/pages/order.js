@@ -1,13 +1,12 @@
 import React from "react"
 import { navigate } from "gatsby"
 
-import debounce from 'lodash.debounce'
+// import debounce from 'lodash.debounce'
 
 // import lozad from 'lozad'
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux'
-import { toggleDarkMode } from '../containers/products/actions'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,10 +16,10 @@ import IconBack from '../components/iconBack'
 import CartItem from '../components/cartItem'
 
 
-import { getProducts } from '../containers/products/actions'
-import { switchDisplay } from '../containers/layout/actions'
+import { addProductToCart, subProductFromCart, removeProductFromCart } from '../containers/products/actions'
+import { pageProductLoaded } from '../containers/layout/actions'
 
-import { parseParams } from '../services/commonFuncs'
+import { parseParams, formatNumber } from '../services/commonFuncs'
 
 
 class OrderPage extends React.Component {
@@ -34,6 +33,8 @@ class OrderPage extends React.Component {
   componentDidMount() {
     if (this.props.isPageProductLoaded) {
 
+    }else{
+      this.props.pageProductLoaded();
     }
     /*
     {
@@ -63,8 +64,21 @@ class OrderPage extends React.Component {
     }
   }
 
+  onChangeQuantity(product, delta){
+    if(delta > 0) {
+      this.props.addProductToCart({product})
+    }
+    if(delta < 0) {
+      this.props.subProductFromCart({product})
+    }
+  }
+
+  onRemove(product) {
+    this.props.removeProductFromCart({product})
+  }
+
   render() {
-    const { cartSelected: { products }, isLoading } = this.props
+    const { cartSelected: { products, totalPv, totalCp, totalDp }, isLoading } = this.props
     const headerChildren = (
       <>
         <IconBack onClick={this.back} />
@@ -87,11 +101,25 @@ class OrderPage extends React.Component {
         <SEO title="Đơn hàng Amway" keywords={[`Amway`, `Sản phẩm`]} />
         {
           isLoading ? <div> Đang tải sản phẩm...</div> :
-            <div>
+            <div className="cart-body">
               <div className="cart-container">
                 {
-                  !!products && products.map((item, index) => <CartItem key={index} product={item.product} isSimpleDisplay={false} />)
+                  !!products && products.map((item, index) => <CartItem 
+                  key={index} 
+                  data={item} 
+                  isSimpleDisplay={false} 
+                  onChangeQuantity = {this.onChangeQuantity.bind(this, item.product)}
+                  onRemove = {this.onRemove.bind(this, item.product)}
+                  />)
                 }
+              </div>
+              <div className="cart-total-container">
+                <div className="cart-total">
+                  <label className="title">Thành Tiền</label>
+                  <label className="total-pv">{`${totalPv.toFixed(2)} PV`}</label>
+                  <label className="total-dp">{formatNumber(totalDp)}</label>
+                  <label className="total-price">{formatNumber(totalCp)}</label>
+                </div>
               </div>
             </div>
 
@@ -109,6 +137,10 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  toggleDarkMode: bindActionCreators(toggleDarkMode, dispatch),
+  addProductToCart: bindActionCreators(addProductToCart, dispatch),
+  subProductFromCart: bindActionCreators(subProductFromCart, dispatch),
+  removeProductFromCart: bindActionCreators(removeProductFromCart, dispatch),
+  pageProductLoaded: bindActionCreators(pageProductLoaded, dispatch),
+
 })
 export default connect(mapStateToProps, mapDispatchToProps)(OrderPage)

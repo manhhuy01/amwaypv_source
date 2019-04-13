@@ -16,10 +16,10 @@ import {
 } from '../../containers/layout/constants'
 import products from '../../data/products.json'
 
-let cartInit = { id: uuid(), products: [], totalItem: 0 }
-if (typeof localStorage != 'undefined') {
+let cartInit = { id: uuid(), products: [], totalItem: 0, totalDp: 0, totalPv:0, totalCp: 0 }
+if (typeof localStorage !== 'undefined') {
   let savedCarts = JSON.stringify(localStorage.getItem('carts'))
-  cartInit = savedCarts != 'null' ? savedCarts : cartInit;
+  cartInit = savedCarts !== 'null' ? savedCarts : cartInit;
 }
 
 
@@ -50,8 +50,8 @@ export default (state = initialState, action) => {
       return { ...state, isUpdating: false, isUpdateSuccess: false }
     case ADD_PRODUCT_TO_CART: {
       let cart = state.cartSelected;
-      let productIndex = cart.products.findIndex(item => item.product.sku == action.payload.product.sku)
-      if (productIndex == -1) {
+      let productIndex = cart.products.findIndex(item => item.product.sku === action.payload.product.sku)
+      if (productIndex === -1) {
         cart.products.push({ product: action.payload.product, amount: 1 })
 
       } else {
@@ -59,8 +59,11 @@ export default (state = initialState, action) => {
 
       }
       cart.totalItem += 1;
-      let cartIndex = state.carts.findIndex(item => item.id == cart.id)
-      if (cartIndex == -1) {
+      cart.totalPv += Number(action.payload.product.pv);
+      cart.totalDp += Number(action.payload.product.dp);
+      cart.totalCp += Number(action.payload.product.cp);
+      let cartIndex = state.carts.findIndex(item => item.id === cart.id)
+      if (cartIndex === -1) {
         state.carts.push(cart)
       }
       else {
@@ -71,18 +74,21 @@ export default (state = initialState, action) => {
 
     case SUB_PRODUCT_FROM_CART: {
       let cart = state.cartSelected;
-      let productIndex = cart.products.findIndex(item => item.product.sku == action.payload.product.sku)
-      if (productIndex == -1) {
+      let productIndex = cart.products.findIndex(item => item.product.sku === action.payload.product.sku)
+      if (productIndex === -1) {
         return state;
       }
-      if (cart.products[productIndex].amount > 1) {
+      if (cart.products[productIndex].amount > 0) {
         cart.products[productIndex].amount = cart.products[productIndex].amount - 1;
       } else {
         cart.products.splice(productIndex, 1)
       }
       cart.totalItem -= 1;
-      let cartIndex = state.carts.findIndex(item => item.id == cart.id)
-      if (cartIndex == -1) {
+      cart.totalPv -= Math.abs(Number(action.payload.product.pv));
+      cart.totalDp -= Number(action.payload.product.dp);
+      cart.totalCp -= Number(action.payload.product.cp);
+      let cartIndex = state.carts.findIndex(item => item.id === cart.id)
+      if (cartIndex === -1) {
         state.carts.push(cart)
       }
       else {
@@ -93,15 +99,18 @@ export default (state = initialState, action) => {
 
     case REMOVE_PRODUCT_FROM_CART: {
       let cart = state.cartSelected;
-      let productIndex = cart.products.findIndex(item => item.product.sku == action.payload.product.sku)
-      if (productIndex == -1) {
+      let productIndex = cart.products.findIndex(item => item.product.sku === action.payload.product.sku)
+      if (productIndex === -1) {
         return state;
       }
       cart.totalItem -= cart.products[productIndex].amount;
+      cart.totalPv -= Math.abs(Number(action.payload.product.pv)*cart.products[productIndex].amount);
+      cart.totalDp -= Number(action.payload.product.dp)*cart.products[productIndex].amount;
+      cart.totalCp -= Number(action.payload.product.cp)*cart.products[productIndex].amount;
       cart.products.splice(productIndex, 1)
 
-      let cartIndex = state.carts.findIndex(item => item.id == cart.id)
-      if (cartIndex == -1) {
+      let cartIndex = state.carts.findIndex(item => item.id === cart.id)
+      if (cartIndex === -1) {
         state.carts.push(cart)
       }
       else {

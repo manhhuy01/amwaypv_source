@@ -3,18 +3,22 @@ import React from "react"
 
 import Card from './card'
 import NumberSpin from './numberSpin'
-import { COLORS } from '../containers/products/constants'
 import { formatNumber } from '../services/commonFuncs'
 
-const CartItem = ({ product, isSimpleDisplay }) => (
+const CartItem = ({ data, isSimpleDisplay, onChangeQuantity, onRemove }) => (
   <div className="cartItem-container">
-    <Card product={product} isSimpleDisplay={isSimpleDisplay} />
+    <Card product={data.product} isSimpleDisplay={isSimpleDisplay} />
     <div className="cartItem-action">
       <div className="cartItem-quantity">
-        <span><NumberSpin min={0} max={999} number={2} /></span>
-        <span>Tổng tiền</span>
+        <div><NumberSpin min={0} max={999} number={data.amount} onChange={onChangeQuantity} /></div>
+        <div className="product-pv">{`${(data.product.pv * data.amount).toFixed(2)} PV`}</div>
+        <div className="product-dp">{formatNumber(data.product.dp * data.amount)}</div>
+        <div className="product-cp">{formatNumber(data.product.cp * data.amount)}</div>
+
       </div>
-      <div className="cartItem-remove">Xóa</div>
+      <div className="cartItem-remove">
+        <label onClick={onRemove}>xóa</label>
+      </div>
     </div>
 
   </div>
