@@ -11,6 +11,7 @@ import PropTypes from "prop-types"
 // import lozad from 'lozad'
 import Header from "./header"
 import "./layout.css"
+import "./layout-mobile.css"
 
 class Layout extends React.Component {
   render() {

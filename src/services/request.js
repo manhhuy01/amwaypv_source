@@ -8,3 +8,7 @@ export const getProductFromAPI =() => {
 export const updateProducAPI =() => {
     return axios.post(`${url}/updateProducts`)
 }
+
+export const login =(user) => {
+    return axios.post(`${url}/login`, user)
+}

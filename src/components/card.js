@@ -4,7 +4,7 @@ import React from "react"
 import { COLORS } from '../containers/products/constants'
 import { formatNumber } from '../services/commonFuncs'
 
-const Card = ({ product, isSimpleDisplay, onAddItemToCart }) => (
+const Card = ({ product, isSimpleDisplay, onAddItemToCart, authentication }) => (
   <div className={isSimpleDisplay ? "card-container--simple" : "card-container"} style={{ background: COLORS[product.category] || COLORS.DEFAULT }}>
     <div className="img-container"><img src={product.imageLink} alt={product.name} /></div>
     <div className="card-right-panel" style={{ background: COLORS[product.category] || COLORS.DEFAULT }}>
@@ -16,10 +16,10 @@ const Card = ({ product, isSimpleDisplay, onAddItemToCart }) => (
         <div className="product-detail">
 
           <div className="product-sku">SKU: {product.sku}</div>
-          <div className="product-pv">{product.pv} PV</div>
+          {!!authentication && <div className="product-pv">{product.pv} PV</div>}
           <div className="product-price">
 
-            <div className="product-dp">{formatNumber(Number(product.dp))}</div>
+            {!!authentication && <div className="product-dp">{formatNumber(Number(product.dp))}</div>}
             <div className="product-cp">{formatNumber(Number(product.cp))}</div>
           </div>
         </div>

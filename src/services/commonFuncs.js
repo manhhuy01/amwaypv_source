@@ -58,7 +58,49 @@ export const searchString = (searchText, nameProduct) => {
 }
 
 export const parseParams = (search) => {
-  if(!search) return ''
+  if (!search) return ''
   var params = search ? search.substring(1) : window.location.search.substring(1);
   return JSON.parse('{"' + decodeURI(params).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}')
+}
+
+export const objectToParams = (obj) => {
+  var str = "";
+  for (var key in obj) {
+    if (str !== "") {
+      str += "&";
+    }
+    str += key + "=" + encodeURIComponent(obj[key]);
+  }
+  return str;
+}
+
+export const validatedUser = (ada, password) => {
+  let rs = true;
+  if (!ada) {
+    return false;
+  }
+  if (ada.length !== 7) {
+    return false;
+  }
+  if (!password) {
+    return false;
+  }
+  if (password.length !== 8) {
+    return false;
+  }
+  return rs;
+}
+
+export const cartToDescription = (cartSelected) => {
+  const products = cartSelected.products.map((item)=> `${item.amount} ${item.product.name}` ).join(',')
+  return `Tổng tiền: ${formatNumber(cartSelected.totalCp)} VND. Bao gồm các món: ${products}`
+}
+
+export const cartToParams = (cartSelected) => {
+  const obj = {
+    customerPrice: cartSelected.totalCp,
+    count: cartSelected.totalItem,
+    cartDetail: cartSelected.products.map((item)=> `${item.amount}-${item.product.sku}`).join('~')
+  }
+  return objectToParams(obj)
 }

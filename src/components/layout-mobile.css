@@ -1,0 +1,122 @@
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+  .product-container {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: stretch;
+  }
+  header input {
+    width: 100%;
+    margin: 0 12px;
+  }
+  .card-container .product-info {
+    padding-bottom: 8px;
+    max-width: unset;
+  }
+  .card-container .product-name {
+    font-size: 12px;
+    padding-right: 32px;
+  }
+  .card-container .product-sku, .card-container .product-pv {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .card-container .product-price {
+    margin-bottom: 0px;
+  }
+  .card-container .img-container img {
+    width: 110px;
+  }
+  .card-container--simple .product-detail {
+    width: 30%;
+    display: block;
+  }
+  .card-container--simple .product-detail>div {
+    padding-bottom: 4px;
+  }
+  .card-container--simple .product-sku {
+    font-size: 10px;
+    display: block;
+  }
+  .card-container--simple .product-pv {
+    display: block;
+  }
+  .card-container--simple .product-price {
+    font-size: 14px;
+    display: block;
+    align-items: center;
+  }
+  .card-container--simple .product-info {
+    width: 70%;
+    padding-right: 8px;
+  }
+  .cart-total-container {
+    width: 100%;
+    height: 72px;
+    bottom: 10px;
+    transition: 350ms;
+  }
+  .cart-total {
+    border: 2px solid gray;
+    height: unset;
+    margin: 0;
+  }
+
+  .cart-total-body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .cart-total .title, .cart-total .total-dp, .cart-total .total-pv, .cart-total .total-price {
+    font-size: 16px;
+    margin: 0px;
+    padding:0 4px;
+    border: none;
+    border-right: 1px solid gray;
+  }
+
+  .cart-container {
+    width: 100%;
+  }
+  .cartItem-container {
+    display: block;
+    position: relative;
+  }
+
+  .cartItem-quantity {
+    flex-flow: row;
+    width: 100%;
+  }
+  .cartItem-action {
+    padding-top: 0px;
+    margin: 0 0 4px 0;
+  }
+  .cartItem-action .cartItem-quantity {
+    justify-content: space-between;
+    padding: 8px 8px 8px 16px;
+  }
+  .cartItem-action .cartItem-quantity div {
+    margin-top: 0px;
+  }
+  .cartItem-remove {
+    position: absolute;
+    top: 7px;
+    right: 0;
+  }
+  .card-container {
+    border: none;
+  }
+  .cart-total-outside{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    transition: 1350ms;
+  }
+}

@@ -9,6 +9,7 @@ import {
   ADD_PRODUCT_TO_CART,
   SUB_PRODUCT_FROM_CART,
   REMOVE_PRODUCT_FROM_CART,
+  GET_FULL_INFO_READ_ONLY_CART,
 } from './constants'
 
 import {
@@ -16,10 +17,13 @@ import {
 } from '../../containers/layout/constants'
 import products from '../../data/products.json'
 
-let cartInit = { id: uuid(), products: [], totalItem: 0, totalDp: 0, totalPv:0, totalCp: 0 }
+let cartInit = { id: uuid(), products: [], totalItem: 0, totalDp: 0, totalPv: 0, totalCp: 0, selected: true }
+const readOnlyCart = { products: [], totalItem: 0, totalDp: 0, totalPv: 0, totalCp: 0, }
+let carts = []
 if (typeof localStorage !== 'undefined') {
-  let savedCarts = JSON.stringify(localStorage.getItem('carts'))
-  cartInit = savedCarts !== 'null' ? savedCarts : cartInit;
+  let savedCarts = JSON.parse(localStorage.getItem('carts'))
+  carts = savedCarts !== null ? savedCarts : [cartInit];
+  cartInit = carts.find(x => x.selected);
 }
 
 
@@ -29,8 +33,9 @@ const initialState = {
   isLoading: true,
   isUpdateSuccess: false,
   isUpdating: false,
-  carts: [cartInit],
-  cartSelected: cartInit
+  carts: carts,
+  cartSelected: cartInit,
+  readOnlyCart: { ...readOnlyCart },
 };
 
 export default (state = initialState, action) => {
@@ -69,6 +74,7 @@ export default (state = initialState, action) => {
       else {
         state.carts[cartIndex] = cart;
       }
+      localStorage.setItem('carts', JSON.stringify(state.carts))
       return { ...state, carts: [...state.carts], cartSelected: { ...cart } }
     }
 
@@ -94,6 +100,7 @@ export default (state = initialState, action) => {
       else {
         state.carts[cartIndex] = cart;
       }
+      localStorage.setItem('carts', JSON.stringify(state.carts))
       return { ...state, carts: [...state.carts], cartSelected: { ...cart } }
     }
 
@@ -104,9 +111,9 @@ export default (state = initialState, action) => {
         return state;
       }
       cart.totalItem -= cart.products[productIndex].amount;
-      cart.totalPv -= Math.abs(Number(action.payload.product.pv)*cart.products[productIndex].amount);
-      cart.totalDp -= Number(action.payload.product.dp)*cart.products[productIndex].amount;
-      cart.totalCp -= Number(action.payload.product.cp)*cart.products[productIndex].amount;
+      cart.totalPv -= Math.abs(Number(action.payload.product.pv) * cart.products[productIndex].amount);
+      cart.totalDp -= Number(action.payload.product.dp) * cart.products[productIndex].amount;
+      cart.totalCp -= Number(action.payload.product.cp) * cart.products[productIndex].amount;
       cart.products.splice(productIndex, 1)
 
       let cartIndex = state.carts.findIndex(item => item.id === cart.id)
@@ -116,9 +123,33 @@ export default (state = initialState, action) => {
       else {
         state.carts[cartIndex] = cart;
       }
+      localStorage.setItem('carts', JSON.stringify(state.carts))
       return { ...state, carts: [...state.carts], cartSelected: { ...cart } }
     }
+    case GET_FULL_INFO_READ_ONLY_CART:
+      let cart = { products: [], totalItem: 0, totalDp: 0, totalPv: 0, totalCp: 0, }
 
+      let products = state.products
+      let cartProducts = []
+      let cartDetails = action.cart.cartDetail.split('~')
+      cartDetails.forEach(item => {
+        let detail = item.split('-')
+        cart.totalItem += Number(detail[0])
+        const product = products.find(p => p.sku === detail[1])
+        if (product) {
+          cartProducts.push({ product, amount: Number(detail[0]) })
+          cart.totalCp += Number(product.cp) * Number(detail[0])
+          cart.totalPv += Number(product.pv) * Number(detail[0])
+          cart.totalDp += Number(product.dp) * Number(detail[0])
+
+        } else {
+          cartProducts.push({ sku: detail[1] })
+        }
+      });
+
+      cart.products = cartProducts
+
+      return { ...state, readOnlyCart: cart }
     default:
       return state;
   }

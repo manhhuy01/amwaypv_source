@@ -5,6 +5,7 @@ import {
     ADD_PRODUCT_TO_CART,
     SUB_PRODUCT_FROM_CART,
     REMOVE_PRODUCT_FROM_CART,
+    GET_FULL_INFO_READ_ONLY_CART,
 } from './constants'
 
 export const toggleDarkMode = isDarkMode => ({
@@ -33,4 +34,9 @@ export const subProductFromCart = (payload) => ({
 export const removeProductFromCart = (payload) => ({
     type: REMOVE_PRODUCT_FROM_CART,
     payload,
+})
+
+export const getFullInfoReadOnlyCart = (cart) => ({
+    type: GET_FULL_INFO_READ_ONLY_CART,
+    cart
 })
