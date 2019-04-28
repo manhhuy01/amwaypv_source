@@ -119,4 +119,9 @@
     display: none;
     transition: 1350ms;
   }
+
+  .product-amount {
+    margin-bottom: 0px;
+  }
+  
 }

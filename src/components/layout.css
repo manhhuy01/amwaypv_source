@@ -131,6 +131,12 @@ button:active {
   font-size: 12px;
 }
 
+.product-amount {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
 .card-container--simple {
   margin: 0px 8px;
   padding: 8px 0px;
@@ -613,6 +619,12 @@ input[type="email"], input[type="number"], input[type="password"], input[type="t
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.product-not-found{
+  background: white;
+  padding: 8px;
+  margin-bottom: 4px;
 }
 
 @media only screen and (max-width: 900px) {

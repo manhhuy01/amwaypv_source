@@ -132,20 +132,23 @@ export default (state = initialState, action) => {
       let products = state.products
       let cartProducts = []
       let cartDetails = action.cart.cartDetail.split('~')
-      cartDetails.forEach(item => {
-        let detail = item.split('-')
-        cart.totalItem += Number(detail[0])
-        const product = products.find(p => p.sku === detail[1])
-        if (product) {
-          cartProducts.push({ product, amount: Number(detail[0]) })
-          cart.totalCp += Number(product.cp) * Number(detail[0])
-          cart.totalPv += Number(product.pv) * Number(detail[0])
-          cart.totalDp += Number(product.dp) * Number(detail[0])
+      if(!(cartDetails.length === 1 && cartDetails[0]==='')){
 
-        } else {
-          cartProducts.push({ sku: detail[1] })
-        }
-      });
+        cartDetails.forEach(item => {
+          let detail = item.split('-')
+          cart.totalItem += Number(detail[0])
+          const product = products.find(p => p.sku === detail[1])
+          if (product) {
+            cartProducts.push({ product, amount: Number(detail[0]) })
+            cart.totalCp += Number(product.cp) * Number(detail[0])
+            cart.totalPv += Number(product.pv) * Number(detail[0])
+            cart.totalDp += Number(product.dp) * Number(detail[0])
+
+          } else {
+            cartProducts.push({ product: undefined, amount: Number(detail[0]) })
+          }
+        });
+      }
 
       cart.products = cartProducts
 
