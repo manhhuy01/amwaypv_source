@@ -22,3 +22,5 @@ export const COLORS = {
     PERSONALCARE: '#ebebf5',
     DEFAULT: '#ffffff'
 }
+
+export const CATEGORIES = ['TẤT CẢ', 'NUTRILITE', 'ARTISTRY', 'PERSONALCARE', 'HOMECARE']

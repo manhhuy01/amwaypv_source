@@ -65,7 +65,7 @@ class OrderPage extends React.Component {
   render() {
     const { readOnlyCart: { products, totalPv, totalCp, totalDp }, isLoading, authentication } = this.props
     const headerChildren = (
-      <>
+      <div className="header-menu">
         <IconBack onClick={this.back} />
         <div>
           <h1>
@@ -76,7 +76,7 @@ class OrderPage extends React.Component {
         <div className="header-right">
           <IconSelectionCart />
         </div>
-      </>
+      </div>
     )
 
     return (

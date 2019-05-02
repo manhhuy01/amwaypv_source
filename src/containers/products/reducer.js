@@ -13,7 +13,8 @@ import {
 } from './constants'
 
 import {
-  PAGE_PRODUCT_LOADED
+  PAGE_PRODUCT_LOADED,
+  UPDATE_CATEGORY,
 } from '../../containers/layout/constants'
 import products from '../../data/products.json'
 
@@ -29,6 +30,7 @@ if (typeof localStorage !== 'undefined') {
 
 const initialState = {
   isDarkMode: false,
+  initProducts: products.data,
   products: products.data,
   isLoading: true,
   isUpdateSuccess: false,
@@ -153,6 +155,9 @@ export default (state = initialState, action) => {
       cart.products = cartProducts
 
       return { ...state, readOnlyCart: cart }
+    case UPDATE_CATEGORY: 
+      let filterProducts = state.initProducts.filter(product => product.category === action.category || action.category === 'TẤT CẢ')
+      return { ...state, products: filterProducts }
     default:
       return state;
   }

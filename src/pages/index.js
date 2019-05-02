@@ -20,10 +20,12 @@ import Modal from '../components/modal'
 import Loading from '../components/loading'
 
 import { getProducts, addProductToCart } from '../containers/products/actions'
-import { switchDisplay, pageProductLoaded } from '../containers/layout/actions'
+import { switchDisplay, pageProductLoaded, updateCategory } from '../containers/layout/actions'
 import { logout } from '../containers/user/actions'
 
 import { searchString } from '../services/commonFuncs'
+
+import { CATEGORIES } from '../containers/products/constants'
 
 
 class IndexPage extends React.Component {
@@ -33,7 +35,10 @@ class IndexPage extends React.Component {
     this.state = {
       products: [],
       isOpenModal: false,
+      isHidden: false,
+      category: props.category,
     }
+    this.value = ''
   }
 
   componentWillReceiveProps(nextProps) {
@@ -41,6 +46,9 @@ class IndexPage extends React.Component {
       this.setState({
         products: [...nextProps.products]
       })
+    }
+    if(nextProps.category !== this.props.category){
+      this.setState({category: nextProps.category}, this.search)
     }
   }
 
@@ -54,6 +62,27 @@ class IndexPage extends React.Component {
         products: [...this.props.products]
       })
     }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = () => {
+    const currentScrollY = window.scrollY;
+    const { isHidden } = this
+    if (currentScrollY > this.lastScrollY && this.lastScrollY > 0 && currentScrollY > 0) {
+      document.getElementById('category').style.opacity = '0'
+      this.isHidden = true
+    } else if (isHidden) {
+      this.isHidden = false
+      document.getElementById('category').style.opacity = '1'
+    }
+    this.lastScrollY = currentScrollY;
   }
 
   search = () => {
@@ -98,33 +127,47 @@ class IndexPage extends React.Component {
     this.props.logout();
   }
 
+  onChangeCategory = (category) => {
+    this.props.updateCategory(category)
+
+  }
+
   render() {
     const { isLoading, isGrid, authentication } = this.props;
     const { products, isOpenModal } = this.state;
 
 
-    const headerChildren = (<>
-      <div style={{ display: 'none' }}>
-        <h1>
-          Sản phẩm Amway
-        </h1>
+    const headerChildren = (
+      <>
+        <div className="header-menu">
+          <div style={{ display: 'none' }}>
+            <h1>
+              Sản phẩm Amway
+          </h1>
 
-      </div>
-      <div className="hamburger-menu">
-        <IconHamburger onClick={this.openSidebar} />
-      </div>
-      <input type="password" style={{ display: 'none', position: 'absolute', left: '-999px' }} />
-      <input
-        className="input-search"
-        placeholder="Tìm sản phẩm"
-        onChange={this.onChangeInput}
-        onFocus={(e) => { e.target.value = ''; this.onChangeInput({ target: { value: '' } }) }}
-      />
-      <div className="header-right">
-        <IconDisplay onClick={this.props.switchDisplay} isGrid={!isGrid} />
-        <IconCart amount={this.props.cartSelected.totalItem} onClick={() => navigate('/order')} />
-      </div>
-    </>)
+          </div>
+          <div className="hamburger-menu">
+            <IconHamburger onClick={this.openSidebar} />
+          </div>
+          <input type="password" style={{ display: 'none', position: 'absolute', left: '-999px' }} />
+          <input
+            className="input-search"
+            placeholder="Tìm sản phẩm"
+            onChange={this.onChangeInput}
+            onFocus={(e) => { e.target.value = ''; this.onChangeInput({ target: { value: '' } }) }}
+          />
+          <div className="header-right">
+            <IconDisplay onClick={this.props.switchDisplay} isGrid={!isGrid} />
+            <IconCart amount={this.props.cartSelected.totalItem} onClick={() => navigate('/order')} />
+          </div>
+        </div>
+        <div id="category" className="category">
+          {
+            CATEGORIES.map(item => <button key={item} onClick={this.onChangeCategory.bind(this, item)} className={`btn-group ${this.state.category === item ? 'active' : ''}`}>{item}</button>)
+          }
+        </div>
+      </>
+    )
     return (
       <Layout
         isGrid={isGrid}
@@ -141,6 +184,7 @@ class IndexPage extends React.Component {
 
           </ul>
         </Sidebar>
+        <div className="product-body" >
         {
           isLoading ? <div> Đang tải sản phẩm...</div> :
             <div className={isGrid ? "product-container" : "product-container--simple"}>
@@ -156,6 +200,8 @@ class IndexPage extends React.Component {
               }
             </div>
         }
+        </div>
+       
         <Modal isOpen={isOpenModal} onClose={() => this.setState({ isOpenModal: false })} title="Đăng nhập">
           <div className="form-input">
             <label>ADA:</label>
@@ -183,6 +229,7 @@ const mapStateToProps = state => ({
   isGrid: state.layoutReducer.isGrid,
   cartSelected: state.productReducer.cartSelected,
   authentication: state.userReducer.authentication,
+  category: state.layoutReducer.category,
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -192,5 +239,6 @@ const mapDispatchToProps = dispatch => ({
   pageProductLoaded: bindActionCreators(pageProductLoaded, dispatch),
   addProductToCart: bindActionCreators(addProductToCart, dispatch),
   logout: bindActionCreators(logout, dispatch),
+  updateCategory: bindActionCreators(updateCategory, dispatch),
 })
 export default connect(mapStateToProps, mapDispatchToProps)(IndexPage)

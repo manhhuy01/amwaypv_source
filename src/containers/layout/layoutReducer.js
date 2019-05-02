@@ -1,6 +1,7 @@
 import {
   SWITCH_DISPLAY,
   PAGE_PRODUCT_LOADED,
+  UPDATE_CATEGORY
 } from './constants'
 // import products from '../../data/products.json'
 
@@ -12,6 +13,7 @@ if (typeof localStorage !== 'undefined') {
 const initialState = {
   isGrid,
   isPageProductLoaded: false,
+  category: 'TẤT CẢ',
 };
 
 export default (state = initialState, action) => {
@@ -21,7 +23,8 @@ export default (state = initialState, action) => {
       return { ...state, isGrid: !state.isGrid };
     case PAGE_PRODUCT_LOADED:
       return { ...state, isPageProductLoaded: true};
-
+    case UPDATE_CATEGORY: 
+      return {...state, category: action.category}
     default:
       return state;
   }
