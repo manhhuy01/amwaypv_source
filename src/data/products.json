@@ -2,7 +2,7 @@
     "data": [
         {
             "sku": "110415",
-            "name": "Thực phẩm bảo vệ sức khỏe Nutrilite Protein thực vật (450g)",
+            "name": "TP BVSK Nutrilite Protein thực vật (450g)",
             "description": "",
             "pv": "29.37",
             "cp": "936000.00",
@@ -13,11 +13,11 @@
         },
         {
             "sku": "104270",
-            "name": "TP bảo vệ sức khỏe Vitamin C Nutrilite Bio C Plus (100 viên/lọ)",
+            "name": "TP BVSK  Nutrilite Vitamin C Bio C Plus (100 viên/lọ)",
             "description": "",
-            "pv": "15.30",
-            "cp": "488000.00",
-            "dp": "424000.00",
+            "pv": "15.08",
+            "cp": "481000.00",
+            "dp": "418000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1014",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/104270_s.jpg",
             "category": "NUTRILITE"
@@ -35,7 +35,7 @@
         },
         {
             "sku": "120844",
-            "name": "Thực phẩm bảo vệ sức khỏe Nutrilite Double X (gói lẻ)",
+            "name": "TP BVSK Nutrilite Double X (gói lẻ)",
             "description": "",
             "pv": "45.09",
             "cp": "1438000.00",
@@ -46,7 +46,7 @@
         },
         {
             "sku": "120843",
-            "name": "Thực phẩm bảo vệ sức khỏe Nutrilite Double  X (viên nén)",
+            "name": "TP BVSK Nutrilite Double  X (viên nén)",
             "description": "",
             "pv": "47.62",
             "cp": "1518000.00",
@@ -68,7 +68,7 @@
         },
         {
             "sku": "104272",
-            "name": "TPBVSK vitamin&khoáng chất tổng hợp Nutrilite (60v/lọ)",
+            "name": "TP BVSK Vitamin và Khoáng chất tổng hợp Nutrilite - Trẻ em",
             "description": "",
             "pv": "10.28",
             "cp": "328000.00",
@@ -79,7 +79,7 @@
         },
         {
             "sku": "104271",
-            "name": "TP BVSK B Complex Nutrilite (100 viên/lọ) - Dạng viên nén",
+            "name": "TP BVSK B Complex Nutrilite (100 viên/lọ)",
             "description": "",
             "pv": "11.36",
             "cp": "362000.00",
@@ -90,7 +90,7 @@
         },
         {
             "sku": "117580",
-            "name": "TPBS  NUTRILITE  Protein Powder vị Sô-cô-la (500g)",
+            "name": "TPBS  Nutrilite Protein Powder vị Sô-cô-la (500g)",
             "description": "",
             "pv": "32.60",
             "cp": "1039000.00",
@@ -100,36 +100,14 @@
             "category": "NUTRILITE"
         },
         {
-            "sku": "104273",
-            "name": "TP BVSK Canxi & Magiê Nutrilite (90 viên/lọ) - Dạng viên nén",
-            "description": "",
-            "pv": "13.02",
-            "cp": "415000.00",
-            "dp": "361000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1017",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/104273_s.jpg",
-            "category": "NUTRILITE"
-        },
-        {
             "sku": "104283",
-            "name": "Thực phẩm bổ sung chất xơ từ rau quả Nutrilite(30 viên/lọ)",
+            "name": "TPBS Chất xơ từ rau quả Nutrilite(30 viên/lọ)",
             "description": "",
             "pv": "17.46",
             "cp": "557000.00",
             "dp": "484000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1356",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/104283_s.jpg",
-            "category": "NUTRILITE"
-        },
-        {
-            "sku": "808400",
-            "name": "TP bảo vệ sức khỏe Nutrilite Milk Thistle&Dandelion (60 viên/lọ)",
-            "description": "",
-            "pv": "31.10",
-            "cp": "991000.00",
-            "dp": "862000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1249",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/808400_s.jpg",
             "category": "NUTRILITE"
         },
         {
@@ -145,7 +123,7 @@
         },
         {
             "sku": "592400",
-            "name": "TP BVSK sắt và a-xít folic Nutrilite (120 viên/lọ)",
+            "name": "TP BVSK Sắt và A-xít folic Nutrilite (120 viên/lọ)",
             "description": "",
             "pv": "11.04",
             "cp": "352000.00",
@@ -156,7 +134,7 @@
         },
         {
             "sku": "860100",
-            "name": "TPCN viên nang mềm Nutrilite Coenzyme Q10 Complex (60 viên/lọ)",
+            "name": "TP BVSK Nutrilite CoQ10 (60 viên/lọ)",
             "description": "",
             "pv": "37.88",
             "cp": "1207000.00",
@@ -167,24 +145,13 @@
         },
         {
             "sku": "426100",
-            "name": "TPBVSK Nutrilite Parselenium E (60 viên/lọ)",
+            "name": "TP BVSK Nutrilite Parselenium E (60 viên/lọ)",
             "description": "",
-            "pv": "20.85",
-            "cp": "665000.00",
-            "dp": "578000.00",
+            "pv": "20.63",
+            "cp": "658000.00",
+            "dp": "572000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1145",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/426100_s.jpg",
-            "category": "NUTRILITE"
-        },
-        {
-            "sku": "117304",
-            "name": "Thực phẩm bảo vệ sức khỏe Nutrilite Multi Carotene (90 viên/lọ)",
-            "description": "",
-            "pv": "21.28",
-            "cp": "679000.00",
-            "dp": "590000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1580",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/117304_s.jpg",
             "category": "NUTRILITE"
         },
         {
@@ -200,7 +167,7 @@
         },
         {
             "sku": "116467",
-            "name": "Thực phẩm bổ sung BodyKey by Nutrilite   - hương Vani",
+            "name": "TPBS BodyKey by Nutrilite   - hương Vani",
             "description": "",
             "pv": "31.20",
             "cp": "994000.00",
@@ -211,7 +178,7 @@
         },
         {
             "sku": "116466",
-            "name": "Thực phẩm bổ sung BodyKey by Nutrilite  - hương Sô cô la",
+            "name": "TPBS BodyKey by Nutrilite  - hương Sô cô la",
             "description": "",
             "pv": "31.20",
             "cp": "994000.00",
@@ -222,7 +189,7 @@
         },
         {
             "sku": "103050",
-            "name": "Thực phẩm Bảo vệ sức khỏe Nutrilite CB Plus (90 viên/chai)",
+            "name": "TP BVSK Nutrilite CB Plus (90 viên/lọ)",
             "description": "",
             "pv": "29.22",
             "cp": "931000.00",
@@ -233,7 +200,7 @@
         },
         {
             "sku": "117085",
-            "name": "Thực phẩm Bảo vệ sức khỏe Nutrilite Green Trim",
+            "name": "TP BVSK Nutrilite GreenTrim (60 viên/lọ)",
             "description": "",
             "pv": "29.94",
             "cp": "954000.00",
@@ -243,19 +210,8 @@
             "category": "NUTRILITE"
         },
         {
-            "sku": "118891",
-            "name": "TPBS Bột uống bổ sung chất điện giải Phytopowder NUTRILITE vị Cam",
-            "description": "",
-            "pv": "28.97",
-            "cp": "923000.00",
-            "dp": "803000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1757",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/118891_s.jpg",
-            "category": "NUTRILITE"
-        },
-        {
             "sku": "118892",
-            "name": "TPBS Bột uống t/cường sức đề kháng Phytopowder NUTRILITE vị Chanh",
+            "name": "Nutrilite PhytoPowder- Bột uống tăng cường sức đề kháng vị Chanh",
             "description": "",
             "pv": "28.97",
             "cp": "923000.00",
@@ -266,7 +222,7 @@
         },
         {
             "sku": "118893",
-            "name": "TPBS Bột uống t/cường sức đề kháng PhytopowderNUTRILITE vị Cherry",
+            "name": "Nutrilite PhytoPowder- Bột uống tăng cường sức đề kháng vị Cherry",
             "description": "",
             "pv": "28.97",
             "cp": "923000.00",
@@ -276,34 +232,23 @@
             "category": "NUTRILITE"
         },
         {
-            "sku": "118894",
-            "name": "TPBS Bột uống bổ sung chất điện giải Phytopowder NUTRILITE vị Cam",
-            "description": "",
-            "pv": "15.30",
-            "cp": "488000.00",
-            "dp": "424000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1759",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/118894_s.jpg",
-            "category": "NUTRILITE"
-        },
-        {
             "sku": "118895",
-            "name": "TPBS Bột uống t/cường sức đề kháng Phytopowder NUTRILITE vị Chanh",
+            "name": "Nutrilite PhytoPowder- Bột uống tăng cường sức đề kháng vị Chanh",
             "description": "",
-            "pv": "15.30",
-            "cp": "488000.00",
-            "dp": "424000.00",
+            "pv": "15.08",
+            "cp": "481000.00",
+            "dp": "418000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=2058",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/118895_s.jpg",
             "category": "NUTRILITE"
         },
         {
             "sku": "118896",
-            "name": "TPBS Bột uống t/cường sức đề kháng PhytopowderNUTRILITE vị Cherry",
+            "name": "Nutrilite PhytoPowder- Bột uống tăng cường sức đề kháng vị Cherry",
             "description": "",
-            "pv": "15.30",
-            "cp": "488000.00",
-            "dp": "424000.00",
+            "pv": "15.08",
+            "cp": "481000.00",
+            "dp": "418000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1760",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/118896_s.jpg",
             "category": "NUTRILITE"
@@ -321,7 +266,7 @@
         },
         {
             "sku": "281316",
-            "name": "Hộp đựng viên bổ sung NUTRILITE tiện dụng (MỚI)",
+            "name": "Hộp đựng viên bổ sung Nutrilite tiện dụng (MỚI)",
             "description": "Giúp bạn đựng các viên Nutrilte một cách tiện dụng...",
             "pv": "0.00",
             "cp": "155000.00",
@@ -332,7 +277,7 @@
         },
         {
             "sku": "268812",
-            "name": "Hộp đựng viên bổ sung NUTRILITE gia đình",
+            "name": "Hộp đựng viên bổ sung Nutrilite gia đình",
             "description": "Giúp bạn đựng các viên Nutrilte mà không lo lắng gì...",
             "pv": "0.00",
             "cp": "132000.00",
@@ -342,196 +287,9 @@
             "category": "NUTRILITE"
         },
         {
-            "sku": "120872",
-            "name": "ARTISTRY STUDIO NYC Edition Lash Boosting 3-in-1 Mascara",
-            "description": "",
-            "pv": "17.57",
-            "cp": "560000.00",
-            "dp": "487000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2134",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/120872_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122576",
-            "name": "Phấn mắt ARTISTRY STUDIO - Shimmering Watercolor",
-            "description": "",
-            "pv": "20.80",
-            "cp": "664000.00",
-            "dp": "577000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2135",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122576_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122577",
-            "name": "Phấn mắt ARTISTRY STUDIO - City of Lights",
-            "description": "",
-            "pv": "20.80",
-            "cp": "664000.00",
-            "dp": "577000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2136",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122577_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122578",
-            "name": "Phấn mắt ARTISTRY STUDIO - Macarons",
-            "description": "",
-            "pv": "20.80",
-            "cp": "664000.00",
-            "dp": "577000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2137",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122578_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122579",
-            "name": "Son môi & má hồng ARTISTRY STUDIO - Polaris Pink",
-            "description": "",
-            "pv": "15.72",
-            "cp": "501000.00",
-            "dp": "436000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2138",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122579_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122580",
-            "name": "Son môi & má hồng ARTISTRY STUDIO - Moulin Rouge",
-            "description": "",
-            "pv": "15.72",
-            "cp": "501000.00",
-            "dp": "436000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2139",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122580_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122581",
-            "name": "Son môi & má hồng ARTISTRY STUDIO - Pantheon Peach",
-            "description": "",
-            "pv": "15.72",
-            "cp": "501000.00",
-            "dp": "436000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2140",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122581_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122582",
-            "name": "Son ARTISTRY STUDIO - Bastille Berries",
-            "description": "",
-            "pv": "14.79",
-            "cp": "472000.00",
-            "dp": "410000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2141",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122582_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122583",
-            "name": "Son ARTISTRY STUDIO - Louvre Lilac",
-            "description": "",
-            "pv": "14.79",
-            "cp": "472000.00",
-            "dp": "410000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2147",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122583_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122584",
-            "name": "Son ARTISTRY STUDIO - Mona Lisa Melon",
-            "description": "",
-            "pv": "14.79",
-            "cp": "472000.00",
-            "dp": "410000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2142",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122584_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122585",
-            "name": "Son ARTISTRY STUDIO - Notre Dame Nude",
-            "description": "",
-            "pv": "14.79",
-            "cp": "472000.00",
-            "dp": "410000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2143",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122585_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122586",
-            "name": "Kẻ chân mày ARTISTRY STUDIO 3 in 1 Brow Shaper - Cafe Chocolate",
-            "description": "",
-            "pv": "13.87",
-            "cp": "442000.00",
-            "dp": "384000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2144",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122586_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122597",
-            "name": "Kẻ chân mày ARTISTRY STUDIO 3 in 1 Brow Shaper - Creme Caramel",
-            "description": "",
-            "pv": "13.87",
-            "cp": "442000.00",
-            "dp": "384000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2146",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122597_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122587",
-            "name": "Chai xịt định hình ARTISTRY STUDIO - Makeup Setting Pray",
-            "description": "",
-            "pv": "18.03",
-            "cp": "575000.00",
-            "dp": "500000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2145",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122587_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "278670",
-            "name": "Phấn nền trang điểm dạng nước Artistry Cushion SPF50+/PA+++",
-            "description": "N21- Công thức dạng nước dễ dàng thấm vào da giúp nhanh chóng...",
-            "pv": "49.60",
-            "cp": "1580000.00",
-            "dp": "1375000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2076",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/278670_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "278671",
-            "name": "Phấn nền trang điểm dạng nước Artistry Cushion SPF50+/PA+++",
-            "description": "N23 - Công thức dạng nước dễ dàng thấm vào da giúp nhanh chóng tạo",
-            "pv": "49.60",
-            "cp": "1580000.00",
-            "dp": "1375000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2077",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/278671_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "283463",
-            "name": "Phấn nền trang điểm dạng nước Artistry Cushion SPF50+/PA+++",
-            "description": "N25- Công thức dạng nước dễ dàng thấm vào da giúp nhanh chóng...",
-            "pv": "49.60",
-            "cp": "1580000.00",
-            "dp": "1375000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2078",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/283463_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
             "sku": "116745",
-            "name": "Hộp đựng phấn ARTISTRY",
-            "description": "Hộp đựng phấn ARTISTRY dùng để đựng các sản phẩm...",
+            "name": "Hộp đựng phấn Artistry",
+            "description": "Hộp đựng phấn Artistry dùng để đựng các sản phẩm...",
             "pv": "6.50",
             "cp": "410000.00",
             "dp": "360000.00",
@@ -541,7 +299,7 @@
         },
         {
             "sku": "116725",
-            "name": "Phấn nền trang điểm dạng nén ARTISTRY màu BISQUE",
+            "name": "Phấn nền trang điểm dạng nén Artistry màu BISQUE",
             "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
             "pv": "28.50",
             "cp": "910000.00",
@@ -552,7 +310,7 @@
         },
         {
             "sku": "116726",
-            "name": "Phấn nền trang điểm dạng nén ARTISTRY màu BUFF",
+            "name": "Phấn nền trang điểm dạng nén Artistry màu BUFF",
             "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
             "pv": "28.50",
             "cp": "910000.00",
@@ -563,7 +321,7 @@
         },
         {
             "sku": "116730",
-            "name": "Phấn nền trang điểm dạng nén ARTISTRY màu NATURAL",
+            "name": "Phấn nền trang điểm dạng nén Artistry màu NATURAL",
             "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
             "pv": "28.50",
             "cp": "910000.00",
@@ -574,7 +332,7 @@
         },
         {
             "sku": "116731",
-            "name": "Phấn nền trang điểm dạng nén ARTISTRY màu SAND",
+            "name": "Phấn nền trang điểm dạng nén Artistry màu SAND",
             "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
             "pv": "28.50",
             "cp": "910000.00",
@@ -584,8 +342,19 @@
             "category": "ARTISTRY"
         },
         {
+            "sku": "289268",
+            "name": "Kem chống nắng Artistry Phyto UV Protect SPF50+ PA+++ (50ml)",
+            "description": "",
+            "pv": "28.97",
+            "cp": "923000.00",
+            "dp": "803000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2173",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/289268_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
             "sku": "117653",
-            "name": "Sản phẩm tẩy trang dạng kem ARTISTRY (125ml)",
+            "name": "Sản phẩm tẩy trang dạng kem Artistry (125ml)",
             "description": "Kết cấu dạng kem dịu nhẹ giúp làm sạch hiệu quả các lớp trang điểm...",
             "pv": "19.80",
             "cp": "632000.00",
@@ -596,18 +365,18 @@
         },
         {
             "sku": "117654",
-            "name": "Kem giúp loại bỏ tế bào chết ARTISTRY (125 ml)",
+            "name": "Kem giúp loại bỏ tế bào chết Artistry (125 ml)",
             "description": "Kết cấu dạng bọt kem giúp loại bỏ những tế bào da chết trên da mặt...",
             "pv": "21.60",
             "cp": "689000.00",
-            "dp": "599300.00",
+            "dp": "599000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1735",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/117654_s.jpg",
             "category": "ARTISTRY"
         },
         {
             "sku": "117655",
-            "name": "Kem mát xa mặt ARTISTRY (100 ml)",
+            "name": "Kem mát xa mặt Artistry (100 ml)",
             "description": "Kem mát- xa mặt ARTISTRY với thành phần từ thực vật giúp da sạch...",
             "pv": "29.75",
             "cp": "948000.00",
@@ -618,18 +387,18 @@
         },
         {
             "sku": "117656",
-            "name": "Mặt nạ làm sạch hiệu quả ARTISTRY (100 ml)",
+            "name": "Mặt nạ làm sạch hiệu quả Artistry (100 ml)",
             "description": "Mặt nạ dạng kem với công thức làm sạch chất bẩn, dầu nhờn dư thừa...",
             "pv": "20.70",
             "cp": "660000.00",
-            "dp": "574300.00",
+            "dp": "574000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1737",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/117656_s.jpg",
             "category": "ARTISTRY"
         },
         {
             "sku": "117652",
-            "name": "Tẩy trang mắt & môi dạng hỗn hợp nước & dầu ARTISTRY (120 ml)",
+            "name": "Tẩy trang mắt & môi dạng hỗn hợp nước & dầu Artistry (120 ml)",
             "description": "Tẩy trang dạng hỗn hợp nước và dầu với kết cấu nhẹ nhàng...",
             "pv": "16.20",
             "cp": "517000.00",
@@ -640,7 +409,7 @@
         },
         {
             "sku": "117642",
-            "name": "Gel rửa mặt tươi mới làn da ARTISTRY Hydra-V (125 ml)",
+            "name": "Gel rửa mặt tươi mới làn da Artistry Hydra-V (125 ml)",
             "description": "Gel rửa mặt tạo bọt nhẹ nhàng giúp làm sạch bã nhờn, lớp trang điểm...",
             "pv": "23.45",
             "cp": "750000.00",
@@ -651,7 +420,7 @@
         },
         {
             "sku": "117651",
-            "name": "Mặt nạ dưỡng ẩm giúp làm tươi mới làn da ARTISTRY (100 ml)",
+            "name": "Mặt nạ dưỡng ẩm giúp làm tươi mới làn da Artistry (100 ml)",
             "description": "Mặt nạ dưỡng ẩm giúp làm tươi mới làn da, giúp dưỡng ẩm tối đa làn da...",
             "pv": "28.85",
             "cp": "919000.00",
@@ -662,7 +431,7 @@
         },
         {
             "sku": "117644",
-            "name": "Dung dịch cân bằng làm mềm và tươi mới làn da ARTISTRY Hydra-V",
+            "name": "Dung dịch cân bằng làm mềm và tươi mới làn da Artistry Hydra-V",
             "description": "Dung dịch không chứa cồn giúp loại bỏ vết bụi bẩn, vết trang điểm...",
             "pv": "24.15",
             "cp": "770000.00",
@@ -673,7 +442,7 @@
         },
         {
             "sku": "117649",
-            "name": "Gel dưỡng da vùng mắt ARTISTRY Hydra-V (15ml)",
+            "name": "Gel dưỡng da vùng mắt Artistry Hydra-V (15ml)",
             "description": "Sản phẩm giúp tăng cường độ ẩm cho da nhưng không gây  bóng nhờn...",
             "pv": "28.15",
             "cp": "900000.00",
@@ -684,7 +453,7 @@
         },
         {
             "sku": "117650",
-            "name": "Tinh chất giúp tươi mới làn da ARTISTRY Hydra-V (30 ml)",
+            "name": "Tinh chất giúp tươi mới làn da Artistry Hydra-V (30 ml)",
             "description": "Tinh chất cô đặc là cách hiệu quả nhất giúp đem đến sự  tươi mới, làm mới..",
             "pv": "42.95",
             "cp": "1370000.00",
@@ -695,7 +464,7 @@
         },
         {
             "sku": "117647",
-            "name": "Gel giúp tươi mới làn da ARTISTRY Hydra-V (50 ml)",
+            "name": "Gel giúp tươi mới làn da Artistry Hydra-V (50 ml)",
             "description": "Kết cấu nhẹ mang lại cảm giác tươi mát tức thì, giúp hấp  thụ lượng dầu",
             "pv": "31.40",
             "cp": "1000000.00",
@@ -706,7 +475,7 @@
         },
         {
             "sku": "117648",
-            "name": "Gel dưỡng ẩm ARTISTRY Hydra-V (75 ml)",
+            "name": "Gel dưỡng ẩm Artistry Hydra-V (75 ml)",
             "description": "Kết cấu dạng kem mỏng, gel dưỡng cung cấp nước, đem lại  sự tươi mới sau...",
             "pv": "31.40",
             "cp": "1000000.00",
@@ -785,9 +554,9 @@
             "sku": "119621",
             "name": "Sữa dưỡng ẩm trắng sáng da ban ngày Artistry Ideal Radiance(100g)",
             "description": "Giúp tăng cường độ ẩm cho da, đồng thời giúp làn da trắng sáng mượt mà...",
-            "pv": "41.49",
-            "cp": "1320000.00",
-            "dp": "1150000.00",
+            "pv": "41.27",
+            "cp": "1316000.00",
+            "dp": "1144000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1797",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/119621_s.jpg",
             "category": "ARTISTRY"
@@ -838,7 +607,7 @@
         },
         {
             "sku": "113801",
-            "name": "Sữa rửa mặt ARTISTRY Youth Xtend (125g)",
+            "name": "Sữa rửa mặt Artistry Youth Xtend (125g)",
             "description": "Sữa rửa mặt ARTISTRY Youth Xtend là sữa rửa mặt tạo bọt cao cấp...",
             "pv": "32.50",
             "cp": "1036000.00",
@@ -849,7 +618,7 @@
         },
         {
             "sku": "113802",
-            "name": "Nước hoa hồng cân bằng làm mềm da (200ml)",
+            "name": "Sữa dưỡng cân bằng làm mềm da (200ml)",
             "description": "Sản phẩm với công thức đặc biệt có chứa các thành phần quan trọng...",
             "pv": "36.08",
             "cp": "1150000.00",
@@ -860,7 +629,7 @@
         },
         {
             "sku": "113803",
-            "name": "Sữa dưỡng ẩm bảo vệ da ban ngày ARTISTRY Youth Xtend (50ml)",
+            "name": "Sữa dưỡng ẩm bảo vệ da ban ngày Artistry Youth Xtend (50ml)",
             "description": "Chứa thành phần SPF 15 PA+++ giúp ngăn ngừa tác hại của tia UV và...",
             "pv": "48.70",
             "cp": "1553000.00",
@@ -871,7 +640,7 @@
         },
         {
             "sku": "113808",
-            "name": "Kem dưỡng ẩm da ARTISTRY Youth Xtend (50ml)",
+            "name": "Kem dưỡng ẩm da Artistry Youth Xtend (50ml)",
             "description": "Sử dụng hàng ngày với Kem dưỡng ẩm da ARTISTRY Youth Xtend để...",
             "pv": "50.18",
             "cp": "1600000.00",
@@ -882,7 +651,7 @@
         },
         {
             "sku": "113810",
-            "name": "Kem dưỡng da vùng mắt ARTISTRY Youth Xtend (15ml)",
+            "name": "Kem dưỡng da vùng mắt Artistry Youth Xtend (15ml)",
             "description": "Được sáng tạo đặc biệt dành riêng cho vùng da nhạy cảm quanh mắt...",
             "pv": "33.59",
             "cp": "1071000.00",
@@ -893,7 +662,7 @@
         },
         {
             "sku": "113809",
-            "name": "Tinh chất dưỡng da ARTISTRY Youth Xtend (30ml)",
+            "name": "Tinh chất dưỡng da Artistry Youth Xtend (30ml)",
             "description": "Trải nghiệm làn da tươi trẻ hơn với Tinh chất dưỡng da ARTISTRY Youth Xtend",
             "pv": "63.13",
             "cp": "2013000.00",
@@ -904,7 +673,7 @@
         },
         {
             "sku": "118184",
-            "name": "Kem dưỡng da chống lão hóa ARTISTRY Supreme LX (50ml)",
+            "name": "Kem dưỡng da chống lão hóa Artistry Supreme LX (50ml)",
             "description": "Làm mờ các dấu hiệu lão hóa và hỗ trợ ngăn ngừa các dấu hiệu lão hóa...",
             "pv": "233.26",
             "cp": "7440000.00",
@@ -915,7 +684,7 @@
         },
         {
             "sku": "118185",
-            "name": "Kem dưỡng chống lão hóa vùng mắt ARTISTRY Supreme LX (15ml)",
+            "name": "Kem dưỡng chống lão hóa vùng mắt Artistry Supreme LX (15ml)",
             "description": "Làm mờ các dấu hiệu lão hóa tại khu vực quanh mắt và hỗ trợ ngăn ngừa ...",
             "pv": "95.60",
             "cp": "3050000.00",
@@ -1005,9 +774,9 @@
             "sku": "122154",
             "name": "Sữa tắm gội em bé G&H (400ml)",
             "description": "G&H Baby không chỉ đem đến giải pháp hiệu quả hơn trong quá trình...",
-            "pv": "9.74",
-            "cp": "310000.00",
-            "dp": "270000.00",
+            "pv": "9.52",
+            "cp": "304000.00",
+            "dp": "264000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1014&cat2=1017&rfnbr=2038",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/personalcare/122154_s.jpg",
             "category": "PERSONALCARE"
