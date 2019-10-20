@@ -57,7 +57,7 @@
         },
         {
             "sku": "427100",
-            "name": "TP BVSK Vitamin & Khoáng chất hàng ngày Nutrilite Daily",
+            "name": "TP BVSK Vitamin & Khoáng chất hằng ngày-Nutrilite Daily",
             "description": "",
             "pv": "12.99",
             "cp": "414000.00",
@@ -112,7 +112,7 @@
         },
         {
             "sku": "104283",
-            "name": "TPBS Chất xơ từ rau quả Nutrilite(30 viên/lọ)",
+            "name": "TPBS Chất Xơ từ rau quả Nutrilite (30 viên/lọ)",
             "description": "",
             "pv": "17.46",
             "cp": "557000.00",
@@ -123,7 +123,7 @@
         },
         {
             "sku": "808400",
-            "name": "TP bảo vệ sức khỏe Nutrilite Milk Thistle&Dandelion (60 viên/lọ)",
+            "name": "TP BVSK Nutrilite Milk Thistle & Dandelion (60 viên/lọ)",
             "description": "",
             "pv": "31.10",
             "cp": "991000.00",
@@ -145,7 +145,7 @@
         },
         {
             "sku": "592400",
-            "name": "TP BVSK Sắt và A-xít folic Nutrilite (120 viên/lọ)",
+            "name": "TP BVSK Sắt và Axít Folic Nutrilite (120 viên/lọ)",
             "description": "",
             "pv": "11.04",
             "cp": "352000.00",
@@ -178,7 +178,7 @@
         },
         {
             "sku": "117304",
-            "name": "Thực phẩm bảo vệ sức khỏe Nutrilite Multi Carotene (90 viên/lọ)",
+            "name": "TP BVSK Nutrilite Multi Carotene (90 viên/lọ)",
             "description": "",
             "pv": "21.28",
             "cp": "679000.00",
@@ -211,7 +211,7 @@
         },
         {
             "sku": "116466",
-            "name": "TPBS BodyKey by Nutrilite  - hương Sô cô la",
+            "name": "TPBS BodyKey by Nutrilite™  - hương Sô cô la",
             "description": "",
             "pv": "31.20",
             "cp": "994000.00",
@@ -243,17 +243,6 @@
             "category": "NUTRILITE"
         },
         {
-            "sku": "118891",
-            "name": "TPBS Bột uống bổ sung chất điện giải Phytopowder NUTRILITE vị Cam",
-            "description": "",
-            "pv": "28.97",
-            "cp": "923000.00",
-            "dp": "803000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1757",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/118891_s.jpg",
-            "category": "NUTRILITE"
-        },
-        {
             "sku": "118892",
             "name": "Nutrilite PhytoPowder- Bột uống tăng cường sức đề kháng vị Chanh",
             "description": "",
@@ -273,17 +262,6 @@
             "dp": "803000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1758",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/118893_s.jpg",
-            "category": "NUTRILITE"
-        },
-        {
-            "sku": "118894",
-            "name": "TPBS Bột uống bổ sung chất điện giải Phytopowder NUTRILITE vị Cam",
-            "description": "",
-            "pv": "15.08",
-            "cp": "481000.00",
-            "dp": "418000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1759",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/118894_s.jpg",
             "category": "NUTRILITE"
         },
         {
@@ -349,7 +327,7 @@
             "cp": "560000.00",
             "dp": "487000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2134",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/120872_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/120872_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -360,7 +338,7 @@
             "cp": "664000.00",
             "dp": "577000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2135",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122576_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122576_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -371,7 +349,7 @@
             "cp": "664000.00",
             "dp": "577000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2136",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122577_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122578_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -382,7 +360,7 @@
             "cp": "664000.00",
             "dp": "577000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2137",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122578_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122578_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -393,7 +371,7 @@
             "cp": "501000.00",
             "dp": "436000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2138",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122579_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122579_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -404,7 +382,7 @@
             "cp": "501000.00",
             "dp": "436000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2139",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122580_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122580_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -415,7 +393,7 @@
             "cp": "501000.00",
             "dp": "436000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2140",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122581_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122581_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -426,7 +404,7 @@
             "cp": "472000.00",
             "dp": "410000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2141",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122582_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122582_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -437,7 +415,7 @@
             "cp": "472000.00",
             "dp": "410000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2147",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122583_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122583_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -448,7 +426,7 @@
             "cp": "472000.00",
             "dp": "410000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2142",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122584_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122584_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -459,7 +437,7 @@
             "cp": "472000.00",
             "dp": "410000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2143",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122585_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122585_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -470,7 +448,7 @@
             "cp": "442000.00",
             "dp": "384000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2144",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122586_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122586_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -481,7 +459,7 @@
             "cp": "442000.00",
             "dp": "384000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2146",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122597_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122597_162x216.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -492,13 +470,222 @@
             "cp": "575000.00",
             "dp": "500000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2145",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/122587_s.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122587_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123025",
+            "name": "Son ARTISTRY STUDIO Bangkok edition 2-in-1 Matte Lip Crayon-Rose",
+            "description": "(Màu Rose Goddess)",
+            "pv": "13.89",
+            "cp": "443000.00",
+            "dp": "385000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2226",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123025_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123026",
+            "name": "Son ARTISTRY STUDIO Bangkok edition 2-in-1 Matte Lip Crayon-Ruby",
+            "description": "(Màu Ruby Goddess)",
+            "pv": "13.89",
+            "cp": "443000.00",
+            "dp": "385000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2227",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123026_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123027",
+            "name": "Son ARTISTRY STUDIO Bangkok edition2-in-1 Matte Lip Crayon-Spiced",
+            "description": "(Màu Spiced Goddess)",
+            "pv": "13.89",
+            "cp": "443000.00",
+            "dp": "385000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2228",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123027_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123028",
+            "name": "Son ARTISTRY STUDIO Bangkok edition2-in-1 Matte Lip Crayon-Sunset",
+            "description": "(Màu Sunset Goddess)",
+            "pv": "13.89",
+            "cp": "443000.00",
+            "dp": "385000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2229",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123028_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123029",
+            "name": "Son ARTISTRY STUDIO Bangkok edition2-in-1 MatteLip Crayon-Fuchsia",
+            "description": "(Màu Fuchsia Goddess)",
+            "pv": "13.89",
+            "cp": "443000.00",
+            "dp": "385000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2230",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123029_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123031",
+            "name": "Phấn mắt ARTISTRY STUDIO Bangkok edition Sh.Cream Eyeshadow",
+            "description": "(Màu Gold Rush)",
+            "pv": "15.87",
+            "cp": "506000.00",
+            "dp": "440000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2231",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123031_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123032",
+            "name": "Phấn mắt ARTISTRY STUDIO Bangkok edition Sh.Cream Eyeshadow",
+            "description": "(Màu Smoky Nights)",
+            "pv": "15.87",
+            "cp": "506000.00",
+            "dp": "440000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2232",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123032_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123033",
+            "name": "Phấn mắt ARTISTRY STUDIO Bangkok edition Sh.Cream Eyeshadow",
+            "description": "(Màu Silver Violet)",
+            "pv": "15.87",
+            "cp": "506000.00",
+            "dp": "440000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2233",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123033_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123034",
+            "name": "Chì kẻ mắt ARTISTRY STUDIO Bangkok edition Kajal Eyeliner",
+            "description": "(Emerald Garden)",
+            "pv": "13.89",
+            "cp": "443000.00",
+            "dp": "385000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2234",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123034_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123035",
+            "name": "Chì kẻ mắt ARTISTRY STUDIO Bangkok edition Kajal Eyeliner",
+            "description": "(Gilded Amethyst)",
+            "pv": "13.89",
+            "cp": "443000.00",
+            "dp": "385000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2235",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123035_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123037",
+            "name": "ARTISTRY STUDIO Bangkok edition Face & Body Shimmer Gel",
+            "description": "",
+            "pv": "20.63",
+            "cp": "658000.00",
+            "dp": "572000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2236",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123037_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123038",
+            "name": "Dưỡng lót mi ARTISTRY STUDIO Bangkok edition Mascara Base Primer",
+            "description": "",
+            "pv": "12.70",
+            "cp": "405000.00",
+            "dp": "352000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2237",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123038_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "123137",
+            "name": "Bảng màu trang điểm ARTISTRY STUDIO Bangkok edition On-the-Go",
+            "description": "Golden Realm",
+            "pv": "38.89",
+            "cp": "1240000.00",
+            "dp": "1078000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2241",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/123137_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "121555",
+            "name": "Dung dịch nền Artistry Signature Select Personalized Serum 24ml",
+            "description": "",
+            "pv": "27.74",
+            "cp": "884000.00",
+            "dp": "769000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2200",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/121555_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "121556",
+            "name": "Tinh chất Artistry Signature Select Hydration Amplifier 2ml",
+            "description": "(Dành cho da mất nước, da khô)",
+            "pv": "23.12",
+            "cp": "737000.00",
+            "dp": "641000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2201",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/121556_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "121557",
+            "name": "Tinh chất Artistry Signature Select Brightening Amplifier 2ml",
+            "description": "(Dành cho da xỉn màu, thiếu sức sống)",
+            "pv": "27.74",
+            "cp": "884000.00",
+            "dp": "769000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2202",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/121557_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "121558",
+            "name": "Tinh chất Artistry Signature Select Anti-Wrinkle Amplifier 2ml",
+            "description": "(Dành cho da có nếp nhăn)",
+            "pv": "32.36",
+            "cp": "1032000.00",
+            "dp": "897000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2203",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/121558_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "121559",
+            "name": "Tinh chất Artistry Signature Select Firming Amplifier 2ml",
+            "description": "(Dành cho da chẩy xệ, lão hóa)",
+            "pv": "35.13",
+            "cp": "1120000.00",
+            "dp": "974000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2204",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/121559_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "121560",
+            "name": "Tinh chất Artistry Signature Select Anti-Spot Amplifier 2ml",
+            "description": "(Da đốm màu và không đều màu)",
+            "pv": "35.13",
+            "cp": "1120000.00",
+            "dp": "974000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2205",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/121560_s.jpg",
             "category": "ARTISTRY"
         },
         {
             "sku": "278670",
-            "name": "Phấn nền trang điểm dạng nước Artistry Cushion SPF50+/PA+++",
-            "description": "N21- Công thức dạng nước dễ dàng thấm vào da giúp nhanh chóng...",
+            "name": "Phấn nền trang điểm dạng nước Artistry Cushion Foundation (12gx2)",
+            "description": "N21 - TẠM HẾT HÀNG, VUI LÒNG CHỜ THÔNG BÁO MỚI",
             "pv": "49.60",
             "cp": "1580000.00",
             "dp": "1375000.00",
@@ -508,8 +695,8 @@
         },
         {
             "sku": "278671",
-            "name": "Phấn nền trang điểm dạng nước Artistry Cushion SPF50+/PA+++",
-            "description": "N23 - Công thức dạng nước dễ dàng thấm vào da giúp nhanh chóng tạo",
+            "name": "Phấn nền trang điểm dạng nước Artistry Cushion Foundation (12gx2)",
+            "description": "N23 - TẠM HẾT HÀNG, VUI LÒNG CHỜ THÔNG BÁO MỚI",
             "pv": "49.60",
             "cp": "1580000.00",
             "dp": "1375000.00",
@@ -519,8 +706,8 @@
         },
         {
             "sku": "283463",
-            "name": "Phấn nền trang điểm dạng nước Artistry Cushion SPF50+/PA+++",
-            "description": "N25- Công thức dạng nước dễ dàng thấm vào da giúp nhanh chóng...",
+            "name": "Phấn nền trang điểm dạng nước Artistry Cushion Foundation (12gx2)",
+            "description": "N25 - TẠM HẾT HÀNG, VUI LÒNG CHỜ THÔNG BÁO MỚI",
             "pv": "49.60",
             "cp": "1580000.00",
             "dp": "1375000.00",
@@ -529,19 +716,8 @@
             "category": "ARTISTRY"
         },
         {
-            "sku": "116745",
-            "name": "Hộp đựng phấn Artistry",
-            "description": "Hộp đựng phấn Artistry dùng để đựng các sản phẩm...",
-            "pv": "6.50",
-            "cp": "410000.00",
-            "dp": "360000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1515",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/116745_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
             "sku": "116725",
-            "name": "Phấn nền trang điểm dạng nén Artistry màu BISQUE",
+            "name": "Phấn nền Artistry Exact Fit Powder Foundation (12g) - màu BISQUE",
             "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
             "pv": "28.50",
             "cp": "910000.00",
@@ -552,7 +728,7 @@
         },
         {
             "sku": "116726",
-            "name": "Phấn nền trang điểm dạng nén Artistry màu BUFF",
+            "name": "Phấn nền Artistry Exact Fit Powder Foundation (12g) - màu BUFF",
             "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
             "pv": "28.50",
             "cp": "910000.00",
@@ -563,7 +739,7 @@
         },
         {
             "sku": "116730",
-            "name": "Phấn nền trang điểm dạng nén Artistry màu NATURAL",
+            "name": "Phấn nền Artistry Exact Fit Powder Foundation (12g) - màu NATURAL",
             "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
             "pv": "28.50",
             "cp": "910000.00",
@@ -574,13 +750,200 @@
         },
         {
             "sku": "116731",
-            "name": "Phấn nền trang điểm dạng nén Artistry màu SAND",
+            "name": "Phấn nền Artistry Exact Fit Powder Foundation (12g) - màu SAND",
             "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
             "pv": "28.50",
             "cp": "910000.00",
             "dp": "790000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2090",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/116731_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "110013",
+            "name": "Kem nền Artistry Youth Xtend Lifting Smoothing Foundation (30ml)",
+            "description": "(màu Natural)",
+            "pv": "43.25",
+            "cp": "1379000.00",
+            "dp": "1199000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2195",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/110013_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "110009",
+            "name": "Kem nền Artistry Youth Xtend Lifting Smoothing Foundation (30ml)",
+            "description": "(màu Buff)",
+            "pv": "43.25",
+            "cp": "1379000.00",
+            "dp": "1199000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2194",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/110009_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "110014",
+            "name": "Kem nền Artistry Youth Xtend Lifting Smoothing Foundation (30ml)",
+            "description": "(màu Sand)",
+            "pv": "43.25",
+            "cp": "1379000.00",
+            "dp": "1199000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2196",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/110014_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "110008",
+            "name": "Kem nền Artistry Youth Xtend Lifting Smoothing Foundation (30ml)",
+            "description": "(màu Bisque)",
+            "pv": "43.25",
+            "cp": "1379000.00",
+            "dp": "1199000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2193",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/110008_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "118404",
+            "name": "Hộp đựng phấn Artistry Signature",
+            "description": "dùng để đựng lõi phấn mắt hoặc lõi phấn má hồng...",
+            "pv": "3.79",
+            "cp": "240000.00",
+            "dp": "209000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1673",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/118404_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "116745",
+            "name": "Hộp đựng phấn nền Artistry",
+            "description": "Hộp đựng phấn Artistry dùng để đựng các sản phẩm...",
+            "pv": "6.50",
+            "cp": "410000.00",
+            "dp": "360000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1515",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/116745_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "118921",
+            "name": "Chì kẻ mắt Signature color longwearing Eye Pencil - Màu đen",
+            "description": "Chì kẻ viền mắt, cho đường kẻ long lanh, sắc nét, giúp tạo điểm nhấn ...",
+            "pv": "14.29",
+            "cp": "455000.00",
+            "dp": "396000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1674",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/118921_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "120471",
+            "name": "Kẻ mắt nước Signature Color Longwearing Liquid Liner - Màu đen",
+            "description": "Giúp định hình đôi mắt, cho phần trang điểm mắt hoàn hảo...",
+            "pv": "14.29",
+            "cp": "455000.00",
+            "dp": "396000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1806",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/120471_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "118399",
+            "name": "Phấn má hồng Artistry Signature Color Blush -Màu Peachy Pink (3g)",
+            "description": "(màu Peachy Pink)",
+            "pv": "15.48",
+            "cp": "493000.00",
+            "dp": "429000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2191",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/118399_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "118395",
+            "name": "Phấn mắt Signature Color Eye Shadow Quad - Màu Spice Bronze",
+            "description": "",
+            "pv": "21.43",
+            "cp": "683000.00",
+            "dp": "594000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2199",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/118395_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "116694",
+            "name": "Phấn phủ Artistry Exact Fit Perfecting Loose Powder (25ml)",
+            "description": "(màu Light)",
+            "pv": "32.54",
+            "cp": "1037000.00",
+            "dp": "902000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2197",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/116694_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "116695",
+            "name": "Phấn phủ Artistry Exact Fit Perfecting Loose Powder (25ml)",
+            "description": "(màu Medium)",
+            "pv": "32.54",
+            "cp": "1037000.00",
+            "dp": "902000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2198",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/116695_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "115398",
+            "name": "Son dưỡng Artistry Signature Color Sheer Lipstick-Clear Balm(36g)",
+            "description": "(mã Màu 50)",
+            "pv": "28.57",
+            "cp": "911000.00",
+            "dp": "792000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2190",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/115398_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "115383",
+            "name": "Son Artistry Signature Color Lipstick (36g)",
+            "description": "(màu Daring Red - 6)",
+            "pv": "28.57",
+            "cp": "911000.00",
+            "dp": "792000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2188",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/115383_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "115390",
+            "name": "Son Artistry Signature Color Lipstick (36g)",
+            "description": "(màu Bougainvillea - 12)",
+            "pv": "28.57",
+            "cp": "911000.00",
+            "dp": "792000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2208",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/115390_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "120435",
+            "name": "Son Artistry Signature Color Lipstick (36g)",
+            "description": "(màu Coral Sunrise - 19)",
+            "pv": "28.57",
+            "cp": "911000.00",
+            "dp": "792000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2192",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/120435_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "115396",
+            "name": "Son Artistry Signature Color Lipstick (36g)",
+            "description": "(màu Crimson -17)",
+            "pv": "28.57",
+            "cp": "911000.00",
+            "dp": "792000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2189",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/115396_s.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -662,7 +1025,7 @@
         },
         {
             "sku": "117651",
-            "name": "Mặt nạ dưỡng ẩm giúp làm tươi mới làn da Artistry (100 ml)",
+            "name": "Mặt nạ dưỡng ẩm giúp làm tươi mới làn da Artistry Hydra-V(100 ml)",
             "description": "Mặt nạ dưỡng ẩm giúp làm tươi mới làn da, giúp dưỡng ẩm tối đa làn da...",
             "pv": "28.85",
             "cp": "919000.00",
@@ -739,7 +1102,7 @@
         },
         {
             "sku": "120524",
-            "name": "Tinh chất Artistry Advanced Vitamin C + HA (12 ml)",
+            "name": "Tinh chất Artistry Vitamin C + HA treatment (12 ml)",
             "description": "Với các thành phần dưỡng da tiên tiến Artistry Vitamin C & HA giúp...",
             "pv": "43.29",
             "cp": "1380000.00",
@@ -794,7 +1157,7 @@
         },
         {
             "sku": "119621",
-            "name": "Sữa dưỡng ẩm trắng sáng da ban ngày Artistry Ideal Radiance(100g)",
+            "name": "Sữa dưỡng ẩm trắng sáng da ban ngày Artistry Ideal Radiance",
             "description": "Giúp tăng cường độ ẩm cho da, đồng thời giúp làn da trắng sáng mượt mà...",
             "pv": "41.27",
             "cp": "1316000.00",
@@ -816,7 +1179,7 @@
         },
         {
             "sku": "118207",
-            "name": "Kem phấn trang điểm CC Cream SPF 50 PA+++ (Màu Light-Medium)",
+            "name": "Kem phấn trang điểm CC Cream",
             "description": "Giúp làm đều màu, bảo vệ và chăm sóc da chỉ trong một bước đơn giản...",
             "pv": "28.86",
             "cp": "920000.00",
@@ -827,7 +1190,7 @@
         },
         {
             "sku": "118208",
-            "name": "Kem phấn trang điểm CC Cream SPF 50 PA+++ (Màu Light)",
+            "name": "Kem phấn trang điểm CC Cream",
             "description": "Giúp làm đều màu, bảo vệ và chăm sóc da chỉ trong một bước đơn giản...",
             "pv": "28.86",
             "cp": "920000.00",
@@ -860,7 +1223,7 @@
         },
         {
             "sku": "113802",
-            "name": "Sữa dưỡng cân bằng làm mềm da (200ml)",
+            "name": "Sữa dưỡng cân bằng làm mềm da Artistry Youth Xtend(200ml)",
             "description": "Sản phẩm với công thức đặc biệt có chứa các thành phần quan trọng...",
             "pv": "36.08",
             "cp": "1150000.00",
@@ -933,6 +1296,28 @@
             "dp": "2650000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1713",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/118185_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "116104",
+            "name": "Bông Phấn Trang Điểm Artistry",
+            "description": "Chất liệu mềm mại, giúp tăng hiệu quả trang điểm...",
+            "pv": "0.87",
+            "cp": "55000.00",
+            "dp": "48000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1313",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/116104_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "276160",
+            "name": "Thiết bị soi da Artistry",
+            "description": "",
+            "pv": "232.14",
+            "cp": "14801000.00",
+            "dp": "12870000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1959",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/276160_s.jpg",
             "category": "ARTISTRY"
         },
         {
