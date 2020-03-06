@@ -36,7 +36,7 @@
         {
             "sku": "120844",
             "name": "TP BVSK Nutrilite Double X (gói lẻ)",
-            "description": "",
+            "description": "(Không bao gồm khay đựng sản phẩm)",
             "pv": "45.09",
             "cp": "1438000.00",
             "dp": "1250000.00",
@@ -46,8 +46,8 @@
         },
         {
             "sku": "120843",
-            "name": "TP BVSK Nutrilite Double  X (viên nén)",
-            "description": "",
+            "name": "TP BVSK Nutrilite Double  X",
+            "description": "(Bao gồm khay đựng sản phẩm)",
             "pv": "47.62",
             "cp": "1518000.00",
             "dp": "1320000.00",
@@ -97,6 +97,17 @@
             "dp": "904000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1618",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/117580_s.jpg",
+            "category": "NUTRILITE"
+        },
+        {
+            "sku": "120571",
+            "name": "TP BVSK Nutrilite Probiotic",
+            "description": "Hỗ trợ hệ tiêu hóa khỏe giúp đề kháng tăng",
+            "pv": "33.73",
+            "cp": "1075000.00",
+            "dp": "935000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=2284",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/120571_s.jpg",
             "category": "NUTRILITE"
         },
         {
@@ -185,17 +196,6 @@
             "dp": "590000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1580",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/117304_s.jpg",
-            "category": "NUTRILITE"
-        },
-        {
-            "sku": "276168",
-            "name": "Bộ Khởi động BodyKey 2.0",
-            "description": "",
-            "pv": "342.39",
-            "cp": "14766000.00",
-            "dp": "12840000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1963",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/276168_s.jpg",
             "category": "NUTRILITE"
         },
         {
@@ -309,168 +309,14 @@
             "category": "NUTRILITE"
         },
         {
-            "sku": "268812",
-            "name": "Hộp đựng viên bổ sung Nutrilite gia đình",
-            "description": "Giúp bạn đựng các viên Nutrilte mà không lo lắng gì...",
-            "pv": "0.00",
-            "cp": "132000.00",
-            "dp": "115000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1010&cat2=1011&rfnbr=1651",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/nutrition/268812_s.jpg",
-            "category": "NUTRILITE"
-        },
-        {
             "sku": "120872",
-            "name": "ARTISTRY STUDIO NYC Edition Lash Boosting 3-in-1 Mascara",
+            "name": "ARTISTRY STUDIO NYC Edition Lash Boosting Mascara 3 trong 1",
             "description": "",
             "pv": "17.57",
             "cp": "560000.00",
             "dp": "487000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2134",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/120872_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122576",
-            "name": "Phấn mắt ARTISTRY STUDIO - Shimmering Watercolor",
-            "description": "",
-            "pv": "20.80",
-            "cp": "664000.00",
-            "dp": "577000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2135",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122576_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122577",
-            "name": "Phấn mắt ARTISTRY STUDIO - City of Lights",
-            "description": "",
-            "pv": "20.80",
-            "cp": "664000.00",
-            "dp": "577000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2136",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122578_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122578",
-            "name": "Phấn mắt ARTISTRY STUDIO - Macarons",
-            "description": "",
-            "pv": "20.80",
-            "cp": "664000.00",
-            "dp": "577000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2137",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122578_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122579",
-            "name": "Son môi & má hồng ARTISTRY STUDIO - Polaris Pink",
-            "description": "",
-            "pv": "15.72",
-            "cp": "501000.00",
-            "dp": "436000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2138",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122579_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122580",
-            "name": "Son môi & má hồng ARTISTRY STUDIO - Rouge",
-            "description": "",
-            "pv": "15.72",
-            "cp": "501000.00",
-            "dp": "436000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2139",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122580_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122581",
-            "name": "Son môi & má hồng ARTISTRY STUDIO - Pantheon Peach",
-            "description": "",
-            "pv": "15.72",
-            "cp": "501000.00",
-            "dp": "436000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2140",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122581_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122582",
-            "name": "Son ARTISTRY STUDIO - Bastille Berries",
-            "description": "",
-            "pv": "14.79",
-            "cp": "472000.00",
-            "dp": "410000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2141",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122582_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122583",
-            "name": "Son ARTISTRY STUDIO - Louvre Lilac",
-            "description": "",
-            "pv": "14.79",
-            "cp": "472000.00",
-            "dp": "410000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2147",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122583_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122584",
-            "name": "Son ARTISTRY STUDIO - Mona Lisa Melon",
-            "description": "",
-            "pv": "14.79",
-            "cp": "472000.00",
-            "dp": "410000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2142",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122584_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122585",
-            "name": "Son ARTISTRY STUDIO - Notre Dame Nude",
-            "description": "",
-            "pv": "14.79",
-            "cp": "472000.00",
-            "dp": "410000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2143",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122585_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122586",
-            "name": "Kẻ chân mày ARTISTRY STUDIO 3 in 1 Brow Shaper - Cafe Chocolate",
-            "description": "",
-            "pv": "13.87",
-            "cp": "442000.00",
-            "dp": "384000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2144",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122586_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122597",
-            "name": "Kẻ chân mày ARTISTRY STUDIO 3 in 1 Brow Shaper - Creme Caramel",
-            "description": "",
-            "pv": "13.87",
-            "cp": "442000.00",
-            "dp": "384000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2146",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122597_162x216.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "122587",
-            "name": "Chai xịt định hình ARTISTRY STUDIO - Makeup Setting Pray",
-            "description": "",
-            "pv": "18.03",
-            "cp": "575000.00",
-            "dp": "500000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2145",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122587_162x216.jpg",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/120872_s.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -617,6 +463,149 @@
             "category": "ARTISTRY"
         },
         {
+            "sku": "122578",
+            "name": "Phấn mắt ARTISTRY STUDIO - Macarons",
+            "description": "",
+            "pv": "20.80",
+            "cp": "664000.00",
+            "dp": "577000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2137",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122578_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122579",
+            "name": "Son môi & má hồng ARTISTRY STUDIO - Polaris Pink",
+            "description": "",
+            "pv": "15.72",
+            "cp": "501000.00",
+            "dp": "436000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2138",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122579_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122580",
+            "name": "Son môi & má hồng ARTISTRY STUDIO - Rouge",
+            "description": "",
+            "pv": "15.72",
+            "cp": "501000.00",
+            "dp": "436000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2139",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122580_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122581",
+            "name": "Son môi & má hồng ARTISTRY STUDIO - Pantheon Peach",
+            "description": "",
+            "pv": "15.72",
+            "cp": "501000.00",
+            "dp": "436000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2140",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122581_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122582",
+            "name": "Son ARTISTRY STUDIO - Bastille Berries",
+            "description": "",
+            "pv": "14.79",
+            "cp": "472000.00",
+            "dp": "410000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2141",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122582_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122583",
+            "name": "Son ARTISTRY STUDIO - Louvre Lilac",
+            "description": "",
+            "pv": "14.79",
+            "cp": "472000.00",
+            "dp": "410000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2147",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122583_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122584",
+            "name": "Son ARTISTRY STUDIO - Mona Lisa Melon",
+            "description": "",
+            "pv": "14.79",
+            "cp": "472000.00",
+            "dp": "410000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2142",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122584_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122585",
+            "name": "Son ARTISTRY STUDIO - Notre Dame Nude",
+            "description": "",
+            "pv": "14.79",
+            "cp": "472000.00",
+            "dp": "410000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2143",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122585_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122586",
+            "name": "Kẻ chân mày ARTISTRY STUDIO 3 in 1 Brow Shaper - Cafe Chocolate",
+            "description": "",
+            "pv": "13.87",
+            "cp": "442000.00",
+            "dp": "384000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2144",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122586_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122597",
+            "name": "Kẻ chân mày ARTISTRY STUDIO 3 in 1 Brow Shaper - Creme Caramel",
+            "description": "",
+            "pv": "13.87",
+            "cp": "442000.00",
+            "dp": "384000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2146",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122597_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122576",
+            "name": "Phấn mắt ARTISTRY STUDIO - Shimmering Watercolor",
+            "description": "",
+            "pv": "20.80",
+            "cp": "664000.00",
+            "dp": "577000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2135",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122576_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122587",
+            "name": "Chai xịt định hình ARTISTRY STUDIO - Makeup Setting Pray",
+            "description": "",
+            "pv": "18.03",
+            "cp": "575000.00",
+            "dp": "500000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2145",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122587_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
+            "sku": "122577",
+            "name": "Phấn mắt ARTISTRY STUDIO - City of Lights",
+            "description": "",
+            "pv": "20.80",
+            "cp": "664000.00",
+            "dp": "577000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2136",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/audit/122578_162x216.jpg",
+            "category": "ARTISTRY"
+        },
+        {
             "sku": "121555",
             "name": "Dung dịch nền Artistry Signature Select Personalized Serum 24ml",
             "description": "",
@@ -630,7 +619,7 @@
         {
             "sku": "121556",
             "name": "Tinh chất Artistry Signature Select Hydration Amplifier 2ml",
-            "description": "(Dành cho da mất nước, da khô)",
+            "description": "(Dành cho da khô & thiếu nước)",
             "pv": "23.12",
             "cp": "737000.00",
             "dp": "641000.00",
@@ -641,7 +630,7 @@
         {
             "sku": "121557",
             "name": "Tinh chất Artistry Signature Select Brightening Amplifier 2ml",
-            "description": "(Dành cho da xỉn màu, thiếu sức sống)",
+            "description": "(Dành cho da bị xỉn màu, thiếu sức sống)",
             "pv": "27.74",
             "cp": "884000.00",
             "dp": "769000.00",
@@ -652,10 +641,10 @@
         {
             "sku": "121558",
             "name": "Tinh chất Artistry Signature Select Anti-Wrinkle Amplifier 2ml",
-            "description": "(Dành cho da có nếp nhăn)",
-            "pv": "32.36",
-            "cp": "1032000.00",
-            "dp": "897000.00",
+            "description": "(Dành cho da có xuất hiện nếp nhăn)",
+            "pv": "32.14",
+            "cp": "1025000.00",
+            "dp": "891000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2203",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/121558_s.jpg",
             "category": "ARTISTRY"
@@ -663,10 +652,10 @@
         {
             "sku": "121559",
             "name": "Tinh chất Artistry Signature Select Firming Amplifier 2ml",
-            "description": "(Dành cho da chẩy xệ, lão hóa)",
-            "pv": "35.13",
-            "cp": "1120000.00",
-            "dp": "974000.00",
+            "description": "(Dành cho da bị chảy xệ, lão hóa)",
+            "pv": "34.92",
+            "cp": "1113000.00",
+            "dp": "968000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2204",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/121559_s.jpg",
             "category": "ARTISTRY"
@@ -674,10 +663,10 @@
         {
             "sku": "121560",
             "name": "Tinh chất Artistry Signature Select Anti-Spot Amplifier 2ml",
-            "description": "(Da đốm màu và không đều màu)",
-            "pv": "35.13",
-            "cp": "1120000.00",
-            "dp": "974000.00",
+            "description": "(Da có đốm nâu, nám và không đều màu)",
+            "pv": "34.92",
+            "cp": "1113000.00",
+            "dp": "968000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2205",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/121560_s.jpg",
             "category": "ARTISTRY"
@@ -735,28 +724,6 @@
             "dp": "790000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2088",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/116726_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "116730",
-            "name": "Phấn nền Artistry Exact Fit Powder Foundation (12g) - màu NATURAL",
-            "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
-            "pv": "28.50",
-            "cp": "910000.00",
-            "dp": "790000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2089",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/116730_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "116731",
-            "name": "Phấn nền Artistry Exact Fit Powder Foundation (12g) - màu SAND",
-            "description": "Phấn trang điểm thành phần thiên nhiên ngọc trai cho lớp trang điểm mịn...",
-            "pv": "28.50",
-            "cp": "910000.00",
-            "dp": "790000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2090",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/116731_s.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -1057,17 +1024,6 @@
             "category": "ARTISTRY"
         },
         {
-            "sku": "117650",
-            "name": "Tinh chất giúp tươi mới làn da Artistry Hydra-V (30 ml)",
-            "description": "Tinh chất cô đặc là cách hiệu quả nhất giúp đem đến sự  tươi mới, làm mới..",
-            "pv": "42.95",
-            "cp": "1370000.00",
-            "dp": "1190000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1610",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/117650_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
             "sku": "117647",
             "name": "Gel giúp tươi mới làn da Artistry Hydra-V (50 ml)",
             "description": "Kết cấu nhẹ mang lại cảm giác tươi mát tức thì, giúp hấp  thụ lượng dầu",
@@ -1134,28 +1090,6 @@
             "category": "ARTISTRY"
         },
         {
-            "sku": "119620",
-            "name": "Tinh chất dưỡng trắng sáng da Artistry Ideal Radiance (30ml)",
-            "description": "Tinh chất đậm đặc giúp giảm sự xuất hiện các vết đậm màu trên da...",
-            "pv": "59.52",
-            "cp": "1900000.00",
-            "dp": "1650000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1796",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/119620_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "119624",
-            "name": "Tinh chất làm mờ nám và vết thâm Artistry Ideal Radiance (30ml)",
-            "description": "Sản phẩm giúp làm mờ những vết sạm, nám đậm màu...",
-            "pv": "67.82",
-            "cp": "2160000.00",
-            "dp": "1880000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1799",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/119624_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
             "sku": "119621",
             "name": "Sữa dưỡng ẩm trắng sáng da ban ngày Artistry Ideal Radiance",
             "description": "Giúp tăng cường độ ẩm cho da, đồng thời giúp làn da trắng sáng mượt mà...",
@@ -1168,35 +1102,13 @@
         },
         {
             "sku": "119622",
-            "name": "Kem dưỡng trắng sáng da ban đêm Artistry Ideal Radiance (50g)",
+            "name": "Kem dưỡng trắng sáng da ban đêm Artistry Ideal Radiance (50ml)",
             "description": "em dưỡng da với thành phần dưỡng ẩm vượt trội giúp da trắng sáng...",
             "pv": "46.90",
             "cp": "1500000.00",
             "dp": "1300000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1798",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/119622_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "118207",
-            "name": "Kem phấn trang điểm CC Cream",
-            "description": "Giúp làm đều màu, bảo vệ và chăm sóc da chỉ trong một bước đơn giản...",
-            "pv": "28.86",
-            "cp": "920000.00",
-            "dp": "800000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1788",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/118207_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
-            "sku": "118208",
-            "name": "Kem phấn trang điểm CC Cream",
-            "description": "Giúp làm đều màu, bảo vệ và chăm sóc da chỉ trong một bước đơn giản...",
-            "pv": "28.86",
-            "cp": "920000.00",
-            "dp": "800000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1789",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/118208_s.jpg",
             "category": "ARTISTRY"
         },
         {
@@ -1266,17 +1178,6 @@
             "category": "ARTISTRY"
         },
         {
-            "sku": "113809",
-            "name": "Tinh chất dưỡng da Artistry Youth Xtend (30ml)",
-            "description": "Trải nghiệm làn da tươi trẻ hơn với Tinh chất dưỡng da ARTISTRY Youth Xtend",
-            "pv": "63.13",
-            "cp": "2013000.00",
-            "dp": "1750000.00",
-            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=1389",
-            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/113809_s.jpg",
-            "category": "ARTISTRY"
-        },
-        {
             "sku": "118184",
             "name": "Kem dưỡng da chống lão hóa Artistry Supreme LX (50ml)",
             "description": "Làm mờ các dấu hiệu lão hóa và hỗ trợ ngăn ngừa các dấu hiệu lão hóa...",
@@ -1310,8 +1211,19 @@
             "category": "ARTISTRY"
         },
         {
+            "sku": "281298",
+            "name": "Máy Chăm Sóc Da Artistry Dermasonic",
+            "description": "",
+            "pv": "79.37",
+            "cp": "5060000.00",
+            "dp": "4400000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1013&cat2=1016&rfnbr=2079",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/beauty/281298_s.jpg",
+            "category": "ARTISTRY"
+        },
+        {
             "sku": "276160",
-            "name": "Thiết bị soi da Artistry",
+            "name": "Máy soi da Artistry",
             "description": "",
             "pv": "232.14",
             "cp": "14801000.00",
@@ -1395,6 +1307,28 @@
             "dp": "264000.00",
             "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1014&cat2=1017&rfnbr=2038",
             "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/personalcare/122154_s.jpg",
+            "category": "PERSONALCARE"
+        },
+        {
+            "sku": "100957",
+            "name": "Bàn chải đánh răng Glister",
+            "description": "Giúp làm sạch răng và nướu, phòng ngừa sâu răng, giảm nguy cơ ố vàng răng..",
+            "pv": "9.92",
+            "cp": "316000.00",
+            "dp": "275000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1014&cat2=1036&rfnbr=2248",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/personalcare/100957_s.jpg",
+            "category": "PERSONALCARE"
+        },
+        {
+            "sku": "110729",
+            "name": "Kem đánh răng trà trắng đa năng Glister",
+            "description": "",
+            "pv": "4.96",
+            "cp": "159000.00",
+            "dp": "138000.00",
+            "linkDetail": "https://www.amway2u.com/c1/amw_proddet.jsp?cat1=1014&cat2=1036&rfnbr=2283",
+            "imageLink": "https://www.amway2u.com/c1/amway_image/g1000/products/homecare/110729_s.jpg",
             "category": "PERSONALCARE"
         },
         {
